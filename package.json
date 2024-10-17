@@ -1,0 +1,10 @@
+{
+  "name": "yearproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Polina Berezina",
+  "devDependencies": {
+    "webpack": "^5.95.0"
+  }
+}
