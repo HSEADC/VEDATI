@@ -1,1 +1,3 @@
-console.log("Текст в консоль")
+import "./index.css"
+
+console.log("Hello world")
