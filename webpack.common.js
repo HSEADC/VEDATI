@@ -105,11 +105,7 @@ module.exports = {
       filename: './index.html'
     }),
 
-       // About us
-       new HtmlWebpackPlugin({
-        template: "./src/about-us.html",
-        filename: "./about-us.html",
-      }),
+   
 
     // Article
     // new HtmlWebpackPlugin({
