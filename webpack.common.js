@@ -58,9 +58,13 @@ module.exports = {
           }
         ]
       },
+    
       {
         test: /\.html$/i,
         loader: 'html-loader'
+      },
+      {
+        test: /\.(woff|ttf|eot|svg)(\?v=[a-z0-9]\.[a-z0-9]\.[a-z0-9])?$/,
       },
       {
         resourceQuery: /raw/,
@@ -99,7 +103,13 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html'
-    })
+    }),
+
+       // About us
+       new HtmlWebpackPlugin({
+        template: "./src/about-us.html",
+        filename: "./about-us.html",
+      }),
 
     // Article
     // new HtmlWebpackPlugin({
