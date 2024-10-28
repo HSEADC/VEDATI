@@ -111,6 +111,11 @@ body {
   width: 30.486vw;
   height: 27.778vw;
 }
+#formCent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .letter-1,
 .letter-2,
 .letter-3,

@@ -95,41 +95,43 @@
       </div>
 
       <!-- форма -->
-      <form
-        id="my-form"
-        class="my-form"
-        action="https://formspree.io/f/mbljrjjb"
-        method="POST"
-      >
-        <div class="input-container">
-          <input
-            type="email"
-            name="email"
-            placeholder="послати почту"
-            required
-          />
-          <div class="relative">
-            <button type="submit" id="my-form-button">
-              <!-- SVG галочка -->
-              <svg
-                class="checkMark"
-                width="64"
-                height="53"
-                viewBox="0 0 64 53"
-                fill="white"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  id="checkMark"
-                  d="M56.1514 3.26544L45.1004 10.4269L44.8094 10.6105L26.943 21.8774L1.09211 38.2381C-1.2198 39.5245 0.476345 43.054 3.0435 42.2987L37.7372 27.374L38.2886 27.2118C39.3529 26.8987 40.452 27.5844 40.6386 28.678L44.41 50.7815C44.8283 53.2328 48.4052 53.4445 48.8882 51.0465L54.3053 32.9588L57.6106 22.1889L63.5678 3.39816C63.5958 3.3098 63.6322 3.22325 63.6681 3.13782C64.5377 1.07163 61.8915 -0.950699 60.0689 0.481807L56.1514 3.26544Z"
-                  fill="#D9D9D9"
-                />
-              </svg>
-            </button>
+      <div id="formCent">
+        <form
+          id="my-form"
+          class="my-form"
+          action="https://formspree.io/f/mbljrjjb"
+          method="POST"
+        >
+          <div class="input-container">
+            <input
+              type="email"
+              name="email"
+              placeholder="послати почту"
+              required
+            />
+            <div class="relative">
+              <button type="submit" id="my-form-button">
+                <!-- SVG галочка -->
+                <svg
+                  class="checkMark"
+                  width="64"
+                  height="53"
+                  viewBox="0 0 64 53"
+                  fill="white"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    id="checkMark"
+                    d="M56.1514 3.26544L45.1004 10.4269L44.8094 10.6105L26.943 21.8774L1.09211 38.2381C-1.2198 39.5245 0.476345 43.054 3.0435 42.2987L37.7372 27.374L38.2886 27.2118C39.3529 26.8987 40.452 27.5844 40.6386 28.678L44.41 50.7815C44.8283 53.2328 48.4052 53.4445 48.8882 51.0465L54.3053 32.9588L57.6106 22.1889L63.5678 3.39816C63.5958 3.3098 63.6322 3.22325 63.6681 3.13782C64.5377 1.07163 61.8915 -0.950699 60.0689 0.481807L56.1514 3.26544Z"
+                    fill="#D9D9D9"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
-        </div>
-        <p id="my-form-status"></p>
-      </form>
+          <p id="my-form-status"></p>
+        </form>
+      </div>
     </section>
   </body>
 </html>
