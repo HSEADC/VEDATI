@@ -1,3 +1,277 @@
-p {
-    font-family: 'TD Rukopis';
+body {
+  background-color: #131313;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.958vw 5.903vw 0 5.903vw;
+}
+.network {
+  display: flex;
+}
+.firstScreen {
+  height: 77vw;
+}
+.aboutButton {
+  text-align: center;
+  font-family: 'Graphik LCG';
+  font-weight: 100;
+  width: 14.028vw;
+  border: white 0.208vw solid;
+  color: white; /* Цвет текста */
+  font-size: 2.778vw;
+  border-radius: 35px; /* Закругленные края */
+  cursor: pointer;
+  text-decoration: none; /* Убираем подчеркивание */
+  display: inline-block;
+  padding: 0.139vw 0 0.556vw 0;
+  transition: 0.7s;
+}
+.aboutButton:hover {
+  background-color: #ef83b4;
+  transition: 0.3s;
+  color: black;
+  border: #131313 0.208vw solid;
+}
+
+#tgText {
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+  font-size: 1.667vw;
+  color: white; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  text-align: center;
+  margin-right: 8.056vw;
+  position: relative;
+}
+#vkText {
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+  font-size: 1.667vw;
+  color: white; /* Цвет текста */
+  text-decoration: none; /* Убираем подчеркивание */
+  text-align: center;
+  position: relative;
+}
+
+.tg,
+.vk {
+  display: flex;
+  align-items: center;
+}
+
+.line0::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background-color: #4aafee;
+  transition: width 0.3s ease;
+}
+.line1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background-color: #cff37e;
+  transition: width 0.3s ease;
+}
+.line0:hover::after {
+  width: 100%;
+}
+.line1:hover::after {
+  width: 100%;
+}
+.name {
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 1.736vw 1.736vw 1.736vw 5.903vw;
+  box-sizing: border-box;
+}
+
+.bird {
+  width: 23.125vw;
+  height: 23.681vw;
+  background-image: url(../images/name-bird4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.svgName1 {
+  width: 40.208vw;
+  height: 20.833vw;
+}
+.svgName2 {
+  width: 30.486vw;
+  height: 27.778vw;
+}
+.letter-1,
+.letter-2,
+.letter-3,
+.letter-4,
+.letter-5,
+.letter-6 {
+  transition: 0.4s;
+}
+.letter-1:hover {
+  fill: #84c5f1;
+  transition: 0.3s;
+}
+.letter-2:hover {
+  fill: #cff37e;
+  transition: 0.3s;
+}
+.letter-3:hover {
+  fill: #ef83b4;
+  transition: 0.3s;
+}
+.letter-4:hover {
+  fill: #ee6845;
+  transition: 0.3s;
+}
+.letter-5:hover {
+  fill: #f4d780;
+  transition: 0.3s;
+}
+.letter-6:hover {
+  fill: #c181b3;
+  transition: 0.3s;
+}
+
+.threeWord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blue {
+  color: #84c5f1;
+  font-family: 'Graphik LCG';
+  font-weight: 100;
+  font-size: 2.222vw;
+}
+#green {
+  color: #cff37e;
+  font-family: 'Graphik LCG';
+  font-weight: 100;
+  font-size: 2.222vw;
+}
+#pink {
+  color: #ef83b4;
+  font-family: 'Graphik LCG';
+  font-weight: 100;
+  font-size: 2.222vw;
+}
+
+.longLine {
+  width: 13.333vw;
+  height: 0.208vw;
+  background-color: white;
+  margin: 0 1.667vw;
+}
+
+.comingSoon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.soon {
+  font-family: 'TD Rukopis';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  color: white;
+  font-size: 9.167vw;
+  margin-top: 7.042vw;
+}
+.soonText {
+  font-family: 'Graphik LCG';
+  font-weight: 100;
+  color: white;
+  font-size: 2.222vw;
+  margin-top: 0.5vw;
+}
+
+// форма
+#my-form {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  justify-content: center;
+}
+.my-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2.639vw;
+}
+
+input[type='email'] {
+  height: 4.583vw;
+  width: 40.833vw;
+  border-radius: 35px;
+  box-sizing: border-box;
+  padding: 0.9vw 0 1vw 1.736vw;
+  padding-right: 10.178vw; /* Оставляем место для кнопки-галочки */
+  font-size: 16px;
+  position: relative;
+  background-color: #131313;
+  border: 3px solid white;
+  font-size: 2.222vw;
+  color: #f0f1ec;
+  font-family: 'Graphik LCG';
+  font-weight: 100;
+}
+
+#my-form-button {
+  position: absolute;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+  top: 2.292vw;
+  right: 1.875vw;
+}
+
+#my-form-button:hover {
+  color: #388e3c; /* Цвет галочки при наведении */
+}
+
+#my-form-status {
+  margin-top: 0.694vw;
+  font-size: 0.972vw;
+  color: #555;
+  font-size: 1.8vw;
+  font-family: 'Graphik LCG';
+  font-weight: 100;
+}
+.relative {
+  position: relative;
+}
+
+.checkMark {
+  width: 3.472vw;
+  transition: 0.7s;
+}
+#checkMark:hover {
+  fill: #ef83b4;
+  transition: 0.3s;
 }

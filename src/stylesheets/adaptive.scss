@@ -1,0 +1,342 @@
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+  .aboutButton {
+    padding: 1.139vw 0 1.556vw 0;
+    width: 34.606vw;
+    font-size: 6.107vw;
+  }
+  .threeWord {
+    flex-direction: column;
+    font-size: 5.089vw;
+  }
+  #blue,
+  #pink,
+  #green {
+    padding: 6.87vw 0;
+    font-size: 5.089vw;
+  }
+  .longLine {
+    width: 30.333vw;
+  }
+  .name {
+    padding: 34.736vw 1.736vw 1.736vw 5.903vw;
+  }
+  #vkText,
+  #tgText {
+    font-size: 4vw;
+  }
+  .soon {
+    font-size: 20.356vw;
+  }
+  .soonText {
+    font-size: 5.089vw;
+    margin: 3vw;
+  }
+  input[type='email'] {
+    width: 90.112vw;
+    height: 13.44vw;
+    font-size: 4.58vw;
+    padding-left: 3.736vw;
+  }
+  .checkMark {
+    width: 8.472vw;
+  }
+  #my-form-button {
+    top: 6.7vw;
+    right: 4.875vw;
+  }
+  #my-form-status {
+    font-size: 4.58vw;
+    margin-top: 4.694vw;
+  }
+
+  .scr1 {
+    background-image: url(../images/back-mobile.svg);
+    height: 216.794vw;
+  }
+
+  .logo {
+    background-repeat: no-repeat;
+    width: 17vw;
+    height: 5.7vw;
+  }
+  body.aboutBody {
+    .network {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+  .boxBigLogo > p {
+    font-size: 6.5vw;
+  }
+  .boxBigLogo {
+    margin-top: 58vw;
+  }
+  .aboutText {
+    font-size: 4.6vw;
+  }
+  .aboutText {
+    padding: 22vw 5.9vw;
+  }
+  .teaMeme {
+    width: 35.444vw;
+    height: 32.125vw;
+    top: -37vw;
+    right: 13vw;
+    animation: blink 1s ease-in-out infinite alternate;
+    animation-delay: 0.5s;
+  }
+  .bitMeme {
+    width: 22.083vw;
+    height: 21.875vw;
+    bottom: -26.3vw;
+    left: 6vw;
+  }
+  .bootsMeme {
+    width: 21.561vw;
+    height: 26.306vw;
+    bottom: -94vw;
+    right: 70vw;
+    animation: blink 1s ease-in-out infinite alternate;
+  }
+  .ladieMeme {
+    width: 27.139vw;
+    height: 25.514vw;
+    bottom: -70vw;
+    right: 14vw;
+  }
+  .goatMeme {
+    opacity: 0;
+  }
+
+  .scr2 {
+    height: 216.794vw;
+  }
+  .plus > svg {
+    width: 14.918vw;
+    height: 14.588vw;
+  }
+  .boxMuchText {
+    display: flex;
+    justify-content: center;
+    padding: 0 7vw;
+    align-items: center;
+    width: 100vw;
+    height: 170vw;
+    flex-direction: column;
+  }
+  .boxMuchText > p {
+    font-family: 'Roboto Mono';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 6.107vw;
+    padding: 1vw;
+  }
+  #text1 {
+    width: 54vw;
+    text-align: center;
+    line-height: 8vw;
+  }
+  #noAdaptIcons {
+    display: none;
+  }
+  #adaptIcons {
+    display: block;
+  }
+  .boxMuchText > div > svg {
+    margin: 2vw 1vw;
+    width: 13vw;
+    height: 11vw;
+  }
+  .bear {
+    width: 7.049vw;
+    height: 9.92vw;
+    background-size: cover;
+    width: 8.049vw;
+    height: 11vw;
+    margin: 2vw 1vw;
+  }
+  .iroh {
+    width: 8.426vw;
+    height: 9.426vw;
+    background-size: cover;
+    margin: 2vw 1vw;
+  }
+  body.article {
+    h1 {
+      font-size: 10.417vw;
+    }
+    p {
+      font-size: 4.5vw;
+    }
+    h4 {
+      font-size: 4.5vw;
+      padding: 5vw 0;
+    }
+    .cellar > div > p {
+      font-size: 2.5vw;
+    }
+    .people1,
+    .people2,
+    .people3 {
+      width: 8.028vw;
+      height: 10.028vw;
+      background-repeat: no-repeat;
+    }
+  }
+  .second-block {
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .boots2 {
+    width: 14vw;
+    height: 6vw;
+    top: 13vw;
+    left: 45vw;
+  }
+  #t0 {
+    font-size: 5.5vw;
+  }
+  .t1,
+  #tx-1,
+  #tx-2 {
+    width: 67vw;
+  }
+  .pinkBoots {
+    margin: 7vw 0 4vw 0;
+  }
+  #tx-3 {
+    width: 42vw;
+  }
+  .vedalBlock {
+    width: 40.444vw;
+    height: 40.444vw;
+  }
+  h3 {
+    margin: 7vw 0;
+  }
+  .five-block {
+    display: flex;
+    justify-content: space-between;
+    height: 83vw;
+    margin-bottom: 8vw;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .jordan {
+    margin-top: 3vw;
+    width: 70.167vw;
+    height: 38.4vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cellar {
+    background-color: black;
+    width: 100%;
+    height: 15.333vw;
+  }
+
+  .scr3 {
+    height: 140.794vw;
+    padding: 28vw 0px;
+  }
+
+  .aboutText {
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+  }
+  .scr3 > div > svg {
+    width: 96.806vw;
+    height: 34.313vw;
+    margin-bottom: 14vw;
+  }
+  #aboutText2 {
+    padding: 5vw 2vw 0vw 2vw;
+    align-items: flex-end;
+  }
+  .nike {
+    width: 75.848vw;
+    height: 41.375vw;
+    margin-top: 30vw;
+    margin-right: 25vw;
+  }
+  .scr4 {
+    height: 192.794vw;
+  }
+  .scr4 > div > p {
+    font-size: 19.847vw;
+  }
+  .stroke1,
+  .stroke2,
+  .stroke3,
+  .stroke4 {
+    height: 32.861vw;
+  }
+  .stroke4 {
+    height: 35.861vw;
+  }
+  .artText {
+    display: none;
+  }
+  .artTextstroke {
+    display: block;
+    color: white;
+    font-family: 'Graphik LCG';
+    font-weight: 100;
+    font-size: 4.667vw;
+    margin: 3vw 0 0 26vw;
+  }
+  .stroke1 > svg {
+    width: 14.181vw;
+    height: 18.014vw;
+    margin-left: -7vw;
+  }
+  .stroke2 > svg {
+    width: 8.75vw;
+    height: 16.014vw;
+  }
+  .stroke3 > svg {
+    width: 13.903vw;
+    height: 8.903vw;
+    margin-left: -6vw;
+  }
+  .stroke4img {
+    width: 11.903vw;
+    height: 11.903vw;
+  }
+  .scr5 {
+    background-color: #131313;
+    height: 79.794vw;
+  }
+  .bird2 {
+    display: none;
+  }
+  .container5 > h1 {
+    display: none;
+  }
+  .container5 > p {
+    font-size: 4.6vw;
+  }
+  .container5 > p > b {
+    font-size: 4.6vw;
+  }
+  .container5 {
+    margin-top: 10vw;
+  }
+  .cellar > div > p {
+    font-size: 2.5vw;
+  }
+  .people1,
+  .people2,
+  .people3 {
+    width: 8.028vw;
+    height: 10.028vw;
+    background-repeat: no-repeat;
+  }
+  .my-form {
+    height: 26.209vw;
+  }
+  .firstScreen {
+    height: 201vw;
+  }
+}

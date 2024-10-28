@@ -106,10 +106,16 @@ module.exports = {
       inject: 'body',     
     }),
 
-    // Article
+    // About us
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: './about.html'
+    }),
+
+    // Article
+    new HtmlWebpackPlugin({
+      template: './src/article/article.html',
+      filename: './article/article.html'
     }),
 
     // Partials
