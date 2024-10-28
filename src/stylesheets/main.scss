@@ -19,11 +19,11 @@ body {
   font-weight: 100;
   width: 14.028vw;
   border: white 0.208vw solid;
-  color: white; /* Цвет текста */
+  color: white;
   font-size: 2.778vw;
-  border-radius: 35px; /* Закругленные края */
+  border-radius: 35px;
   cursor: pointer;
-  text-decoration: none; /* Убираем подчеркивание */
+  text-decoration: none;
   display: inline-block;
   padding: 0.139vw 0 0.556vw 0;
   transition: 0.7s;
@@ -39,9 +39,8 @@ body {
   font-family: 'Roboto Mono';
   font-weight: bold;
   font-size: 1.667vw;
-  color: white; /* Цвет текста */
-  text-decoration: none; /* Убираем подчеркивание */
-  text-align: center;
+  color: white;
+  text-decoration: none;
   margin-right: 8.056vw;
   position: relative;
 }
@@ -49,8 +48,8 @@ body {
   font-family: 'Roboto Mono';
   font-weight: bold;
   font-size: 1.667vw;
-  color: white; /* Цвет текста */
-  text-decoration: none; /* Убираем подчеркивание */
+  color: white;
+  text-decoration: none;
   text-align: center;
   position: relative;
 }
@@ -226,7 +225,7 @@ input[type='email'] {
   border-radius: 35px;
   box-sizing: border-box;
   padding: 0.9vw 0 1vw 1.736vw;
-  padding-right: 10.178vw; /* Оставляем место для кнопки-галочки */
+  padding-right: 10.178vw;
   font-size: 16px;
   position: relative;
   background-color: #131313;
@@ -252,7 +251,7 @@ input[type='email'] {
 }
 
 #my-form-button:hover {
-  color: #388e3c; /* Цвет галочки при наведении */
+  color: #388e3c;
 }
 
 #my-form-status {
