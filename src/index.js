@@ -1,4 +1,4 @@
-// заглушка
+// тизер
 import './index.css'
 
 console.log('Hello world')

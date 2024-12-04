@@ -98,7 +98,7 @@ body {
 .bird {
   width: 23.125vw;
   height: 23.681vw;
-  background-image: url(../images/name-bird4.png);
+  background-image: url(../images/name-bird4.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -277,4 +277,60 @@ input[type='email'] {
 #checkMark:hover {
   fill: #ef83b4;
   transition: 0.3s;
+}
+.aboutButton2 {
+  text-align: center;
+  font-family: 'Graphik LCG';
+  font-weight: 100;
+  /* width: 14.028vw; */
+  border: white 0.208vw solid;
+  color: white;
+  font-size: 2.778vw;
+  border-radius: 35px;
+  cursor: pointer;
+  /* display: flex; */
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.139vw 2.5vw 1vw 3vw;
+  transition: 0.7s;
+}
+.aboutButton2:hover {
+  background-color: #ef83b4;
+  transition: 0.3s;
+  color: black;
+  border: #131313 0.208vw solid;
+}
+
+.three-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 7.042vw;
+}
+
+.library,
+.articles,
+.tests {
+  margin: 0 1vw;
+}
+
+.libraryPage,
+.articlesPage,
+.testsPage {
+  h1 {
+    font-size: 9.417vw;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    color: white;
+    margin-top: 2vw;
+  }
+  padding: 5.903vw;
+}
+.firstArticle {
+  font-family: 'Graphik LCG';
+  font-weight: 100;
+  font-size: 2.5vw;
+  text-align: left;
+  display: flex;
+  margin-top: 3vw;
+  color: white;
 }
