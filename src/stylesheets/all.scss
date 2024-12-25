@@ -1,0 +1,247 @@
+html {
+  font-size: clamp(1rem, 0.7889rem + 0.8596vw, 1.5625rem);
+}
+p {
+  font-size: 1rem;
+  font-family: 'PPNeueMontreal', sans-serif;
+  font-weight: 500; /* Medium вес */
+  font-size: calc(0.1rem + 1.5vw);
+}
+
+h1 {
+  font-size: 9.26rem;
+  font-family: 'TD Rukopis', sans-serif; /* Используем TD Rukopis */
+}
+h2 {
+  font-size: 2.7em;
+  font-family: 'PPNeueMontreal', sans-serif;
+  font-weight: 500; /* Medium вес */
+  font-size: clamp(2.25rem, 1.511rem + 3.0086vw, 4.21875rem);
+  padding-left: 10.2rem;
+}
+h3 {
+  font-size: 2.56rem;
+  font-family: 'PPNeueMontreal', sans-serif;
+  font-weight: 500; /* Medium вес */
+  font-size: clamp(0.9375rem, 0.3594rem + 3.0729vw, 3.125rem);
+}
+h4 {
+  font-size: 2.4rem;
+  font-family: 'TD Rukopis', sans-serif; /* Используем TD Rukopis */
+  font-size: clamp(1.4375rem, -0.2143rem + 4.4048vw, 3.75rem);
+}
+h5 {
+  font-size: 1.6rem;
+  font-family: 'PPNeueMontreal', sans-serif;
+  font-weight: 500; /* Medium вес */
+}
+h6 {
+  font-size: 1.6rem;
+  font-family: 'TD Rukopis', sans-serif; /* Используем TD Rukopis */
+}
+.explanation-ex {
+  color: var(--black);
+  font-size: 15px;
+  font-family: 'PPNeueMontreal', sans-serif;
+  font-weight: 500; /* medium вес */
+  padding: 0 0 1vw 0;
+  font-size: clamp(0.375rem, -0.0279rem + 1.0727vw, 0.9375rem);
+  position: relative;
+}
+.example-ex {
+  color: var(--black);
+  font-size: 12px;
+  font-family: 'PPNeueMontreal', sans-serif;
+  font-weight: 500; /* medium вес */
+  padding: 0 0 0.6vw 0;
+  font-size: clamp(0.1875rem, -0.2154rem + 1.0727vw, 0.75rem);
+}
+.quote-ex {
+  color: var(--black);
+  font-size: 11px;
+  font-family: 'PPNeueMontreal', sans-serif;
+  font-style: italic;
+  font-size: clamp(0.125rem, -0.2779rem + 1.0727vw, 0.6875rem);
+}
+.tag > p {
+  font-size: clamp(0.375rem, 0.0625rem + 0.8333vw, 0.8125rem);
+  padding: 0.486vw 1.042vw;
+}
+
+/* Меню */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: var(--white);
+  border: 1.5px solid var(--black);
+  border-radius: 2.389vw;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.menu a {
+  font-family: 'PPNeueMontreal', sans-serif;
+  font-weight: 500; /* Medium вес */
+  font-size: calc(0.1rem + 1.5vw);
+  text-decoration: none;
+  color: var(--black);
+  padding: 0.7vw 3vw 0.6vw 3vw;
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+.menu a:hover::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: 0;
+  bottom: 0;
+  background-color: var(--black);
+  border-radius: 25px;
+  z-index: -1;
+  height: 104%;
+  width: 101%;
+}
+
+.menu-items {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+.home-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: var(--black);
+  border: 1.5px solid var(--white);
+  border-radius: 2.389vw;
+  padding: 0.7vw 1.389vw;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+  background-image: url(../images/logomeni.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1.55vw;
+  width: 10vw;
+  z-index: 1;
+}
+.home-button:hover {
+  background-color: var(--white);
+  background-image: url(../images/logomeniblack.svg);
+  border: var(--black) 1.5px solid;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    width: auto;
+    border-radius: 44px;
+  }
+  .hamburger {
+    font-size: 17px;
+  }
+
+  .menu-items {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  .menu-items.active {
+    display: flex;
+  }
+
+  .menu a {
+    padding: 10px;
+    text-align: right;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .home-button {
+    height: 7.6vw;
+    width: 37vw;
+    border-radius: 44px;
+  }
+  .menu a {
+    font-size: calc(1.1rem + 1.5vw);
+  }
+}
+
+section {
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+.buttonСircle {
+  border-radius: 1000px;
+  background-color: var(--white);
+  width: 5.556vw;
+  height: 5.556vw;
+}
+.smallBottonCircle {
+  border-radius: 1000px;
+  width: 3.4vw;
+  height: 3.4vw;
+  margin: 0.2rem 0;
+  border: white 1.5px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.smallBottonCircle > svg {
+  width: 2vw;
+  height: 2vw;
+}
+.arrowHover {
+  transition: 0.3s;
+}
+.allCard {
+  width: 23.2vw;
+  height: 30.8vw;
+  border-radius: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 1vw;
+  justify-content: space-between;
+}
+
+@keyframes op {
+  0% {
+    filter: blur(50px) opacity(0);
+    -webkit-filter: blur(50px) opacity(0);
+  }
+  100% {
+    filter: blur(0px) opacity(1);
+    -webkit-blur: (0px) opacity(1);
+  }
+}

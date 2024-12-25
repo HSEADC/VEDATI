@@ -4,48 +4,31 @@
     url('../fonts/TDRukopisRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap; /* Ускоряет загрузку */
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('../fonts/PPNeueMontreal-Bold.woff2') format('woff2'),
+    url('../fonts/PPNeueMontreal-Bold.woff') format('woff');
+  font-weight: bold; /* Используем жирный вес */
+  font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: 'Graphik LCG';
-  src: url('../fonts/GraphikLCG-Light.woff2') format('woff2'),
-    url('../fonts/GraphikLCG-Light.woff') format('woff');
-  font-weight: 100;
+  font-family: 'PP Neue Montreal';
+  src: url('../fonts/PPNeueMontreal-Medium.woff2') format('woff2'),
+    url('../fonts/PPNeueMontreal-Medium.woff') format('woff');
+  font-weight: 500; /* Средний вес */
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Graphik LCG';
-  src: url('../fonts/GraphikLCG-Regular.woff2') format('woff2'),
-    url('../fonts/GraphikLCG-Regular.woff') format('woff');
+  font-family: 'PP Neue Montreal';
+  src: url('../fonts/PPNeueMontreal-Italic.woff2') format('woff2'),
+    url('../fonts/PPNeueMontreal-Italic.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Graphik LCG';
-  src: url('../fonts/GraphikLCG-Semibold.woff2') format('woff2'),
-    url('../fonts/GraphikLCG-Semibold.woff') format('woff');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto Mono';
-  src: url('../fonts/RobotoMono-Bold.woff2') format('woff2'),
-    url('../fonts/RobotoMono-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto Mono';
-  src: url('../fonts/RobotoMono-Medium.woff2') format('woff2'),
-    url('../fonts/RobotoMono-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
+  font-style: italic;
   font-display: swap;
 }
