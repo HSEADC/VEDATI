@@ -46,7 +46,8 @@
     font-size: 1rem;
     font-family: 'PPNeueMontreal', sans-serif;
     font-weight: 500; /* Medium вес */
-    font-size: clamp(1rem, -0.9078rem + 7.767vw, 2rem);
+    font-size: 1rem;
+    font-size: clamp(0.9rem, -0.9078rem + 7.767vw, 2rem);
   }
   h1 {
     font-size: 6rem;
@@ -73,7 +74,7 @@
     font-size: 2rem;
     font-family: 'PPNeueMontreal', sans-serif;
     font-weight: 500; /* Medium вес */
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   h6 {
     font-size: 1.5rem;
@@ -284,7 +285,6 @@
   }
   .articlesBox > :nth-child(2) {
     background-image: url(../images/mobilebigart.webp);
-    justify-content: normal;
   }
   .bigBanner {
     height: 163.868vw;
@@ -354,7 +354,7 @@
     gap: 40px;
   }
   .bigLogo2 {
-    top: 53vw;
+    top: 63vw;
   }
   .form > :nth-child(3) {
     padding: 7vw 0 14vw 0;
