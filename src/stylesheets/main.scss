@@ -612,7 +612,6 @@
 .form > :nth-child(3) {
   padding: 3vw 0 3vw 4.8rem;
 }
-// форма
 
 .styled-form {
   display: flex;
@@ -705,23 +704,15 @@
 }
 #my-form-status {
   font-family: 'PPNeueMontreal', sans-serif;
-  font-weight: 500; /* Medium вес */
+  font-weight: 500;
   font-size: calc(0.1rem + 1.5vw);
 }
 
-/* футер */
 footer {
   background-color: var(--black);
   color: var(--black);
   stroke: var(--black);
 }
-
-/*
-background-color: var(--white);
-color: var(--white);
-stroke: var(--white);
-}
-*/
 
 footer {
   width: 100%;
