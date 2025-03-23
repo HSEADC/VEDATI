@@ -39,3 +39,14 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.W_HeadLineTextBox1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.W_ButtonBoxBanner {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  height: 41%;
+  padding-top: 8vh;
+}

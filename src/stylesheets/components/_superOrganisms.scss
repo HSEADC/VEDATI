@@ -26,13 +26,13 @@ body {
       height: 100%;
       opacity: 0;
       transition: opacity 1s ease-in-out;
-      padding: 0 80px;
+      padding-left: 80px;
+      padding-right: 80px;
       color: white;
       font-size: 32px;
       font-weight: bold;
       display: flex;
       flex-direction: column;
-      justify-content: center;
 
       &.is-active {
         opacity: 1;
@@ -51,9 +51,19 @@ body {
     }
   }
 
+  #W_ButtonBoxBannerFirst {
+    padding-top: 4.2vh;
+  }
+  .O_FirstSlide {
+    padding-top: 9.8vh;
+  }
+  .O_SecondSlide,
+  .O_ThirdSlide {
+    padding-top: 10vh;
+  }
   .M_Dots {
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;

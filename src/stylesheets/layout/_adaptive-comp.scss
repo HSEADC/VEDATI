@@ -92,7 +92,8 @@
   .S_IndexFirstScreen {
     .O_Slides {
       .O_Slide {
-        padding: 50px 20px;
+        padding-left: 20px;
+        padding-right: 20px;
       }
     }
   }
@@ -117,6 +118,25 @@
       padding-top: 5px;
     }
   }
+  .S_IndexFirstScreen {
+    .M_Dots {
+      .A_Dot {
+        width: 9px;
+        height: 9px;
+      }
+    }
+  }
+  .S_IndexFirstScreen {
+    .O_FirstSlide {
+      padding-top: 15.8vh;
+    }
+  }
+  .S_IndexFirstScreen {
+    .O_SecondSlide,
+    .O_ThirdSlide {
+      padding-top: 16vh;
+    }
+  }
 }
 
 .A_AccentLine {
@@ -132,11 +152,7 @@
     width: 355px;
   }
 }
-@media only screen and (min-width: 0) and (max-width: 360px) {
-  .O_HeadlineFull .A_Word {
-    font-size: 34px;
-  }
-}
+
 .O_ThirdSlide {
   @media only screen and (min-width: 937px) and (max-width: 9999px) {
     .O_HeadlineTop :nth-child(3) {
@@ -185,6 +201,25 @@
   @media only screen and (min-width: 996px) and (max-width: 9999px) {
     .O_HeadlineFull {
       width: 860px;
+    }
+  }
+}
+@media only screen and (min-width: 807px) and (max-width: 1081px) {
+  .W_HeadLineTextBox1 {
+    width: 639px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+  .W_HeadLineTextBox1 {
+    width: 310px;
+  }
+}
+@media only screen and (min-width: 0) and (max-width: 360px) {
+  .O_HeadlineFull {
+    & .A_Word {
+      @media (max-width: 768px) {
+        font-size: 34px;
+      }
     }
   }
 }

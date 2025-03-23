@@ -6,6 +6,7 @@
   justify-content: space-between;
   padding: 50px 80px;
   z-index: 10;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #151515 100%);
 }
 .O_Footer {
   width: 100%;
@@ -43,7 +44,8 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  align-items: flex-start;
+  justify-content: center;
+  padding-top: 15%;
 
   .O_HeadlineTop {
     display: flex;
@@ -97,7 +99,7 @@ footer {
     font-family: 'PP Neue Montreal', sans-serif;
     font-weight: 500;
     font-size: 56px;
-    color: white;
+    color: var(--white);
   }
 }
 

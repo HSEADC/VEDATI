@@ -71,3 +71,12 @@ section {
     transform: scale(1.08);
   }
 }
+.A_BannerPersonImg {
+  position: absolute;
+  bottom: 0;
+  width: 26%;
+  height: auto;
+  min-width: 250px;
+  max-width: 400px;
+  z-index: -4;
+}

@@ -61,3 +61,36 @@
     background-color: var(--black);
   }
 }
+
+/* кнопки*/
+.M_ButtonWithText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.A_RedButton {
+  background-color: var(--red);
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  svg {
+    transition: stroke 0.3s ease;
+  }
+  &:hover {
+    background-color: var(--white);
+    .arrow-icon {
+      stroke: var(--black);
+    }
+  }
+  .arrow-icon {
+    stroke: var(--white);
+    transition: stroke 0.3s ease;
+  }
+}

@@ -97,3 +97,29 @@ setInterval(() => {
   let next = (current + 1) % slides.length
   showSlide(next)
 }, 5000)
+
+// кнопки
+
+document.addEventListener('DOMContentLoaded', () => {
+  const toLibraryBtn = document.getElementById('A_ToLibraryButton')
+  const toArticlesBtn = document.getElementById('A_ToArticlesButton')
+  const toTestsBtn = document.getElementById('A_ToTestsButton')
+
+  if (toLibraryBtn) {
+    toLibraryBtn.addEventListener('click', () => {
+      window.location.href = 'library.html'
+    })
+  }
+
+  if (toArticlesBtn) {
+    toArticlesBtn.addEventListener('click', () => {
+      window.location.href = 'articles.html'
+    })
+  }
+
+  if (toTestsBtn) {
+    toTestsBtn.addEventListener('click', () => {
+      window.location.href = 'tests.html'
+    })
+  }
+})
