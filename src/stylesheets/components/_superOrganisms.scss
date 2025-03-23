@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #777;
+  font-family: sans-serif;
+}
+
+.S_IndexFirstScreen {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  .O_Slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    .O_Slide {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      padding: 0 80px;
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &.is-active {
+        opacity: 1;
+        z-index: 1;
+      }
+
+      .A_Title {
+        font-size: 36px;
+        margin-bottom: 16px;
+      }
+
+      .A_Subtitle {
+        font-size: 20px;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .M_Dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+
+    .A_Dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      background: transparent;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.3s ease;
+
+      &:hover {
+        background: #fff;
+        transform: scale(1.2);
+      }
+
+      &.is-active {
+        background: #fff;
+      }
+    }
+  }
+}
+.A_Marker {
+  background-image: url(/src/images/A_LogoBannerWhite.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 6px;
+}

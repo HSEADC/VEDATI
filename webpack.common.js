@@ -14,7 +14,15 @@ module.exports = {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'docs'),
     clean: true,
+    publicPath: '/',
   },
+
+  resolve: {
+    alias: {
+      '@fonts': path.resolve(__dirname, 'src/fonts'),
+    },
+  },
+
   module: {
     rules: [
       {
@@ -40,14 +48,22 @@ module.exports = {
       },
       {
         test: /\.scss$/i,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: 'css-loader',
+            options: {
+              url: true,
+            },
+          },
+          'sass-loader',
+        ],
       },
       {
         test: /\.css$/i,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
-          'sass-loader',
           {
             loader: 'postcss-loader',
             options: {
@@ -58,13 +74,9 @@ module.exports = {
           },
         ],
       },
-
       {
         test: /\.html$/i,
         loader: 'html-loader',
-      },
-      {
-        test: /\.(woff|ttf|eot|svg)(\?v=[a-z0-9]\.[a-z0-9]\.[a-z0-9])?$/,
       },
       {
         resourceQuery: /raw/,
@@ -85,66 +97,53 @@ module.exports = {
         },
       },
       {
-        test: /\.(ttf|otf)$/i,
-        loader: 'file-loader',
-        options: {
-          name: 'fonts/[name].[ext]',
+        test: /\.(woff|woff2|ttf|otf)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name][ext]',
+          publicPath: '../',
         },
       },
     ],
   },
+
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
       chunkFilename: '[id].[contenthash].css',
     }),
 
-    // Index
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
       inject: 'body',
     }),
-
-    // About us
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: './about.html',
     }),
-
-    // Article
     new HtmlWebpackPlugin({
       template: './src/article/article.html',
       filename: './article/article.html',
     }),
-
-    // Articles
     new HtmlWebpackPlugin({
       template: './src/articles.html',
       filename: './articles.html',
     }),
-
-    // Library
     new HtmlWebpackPlugin({
       template: './src/library.html',
       filename: './library.html',
     }),
-    // Tests
     new HtmlWebpackPlugin({
       template: './src/tests.html',
       filename: './tests.html',
     }),
-
-    // Partials
-    // new HtmlWebpackPartialsPlugin([
-    //   {
-    //     path: path.join(__dirname, './src/partials/analytics.html'),
-    //     location: 'analytics',
-    //     template_filename: '*',
-    //     priority: 'replace'
-    //   }
-    // ])
+    new HtmlWebpackPlugin({
+      template: './src/error.html',
+      filename: './error.html',
+    }),
   ],
+
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
   },

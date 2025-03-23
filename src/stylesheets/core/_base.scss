@@ -1,0 +1,63 @@
+/* если темный фон и белый объект */
+.BlackBack {
+  background-color: var(--black);
+
+  /* чтобы пропадали черные объекты предназначенные для белого фона */
+  .black {
+    display: none;
+  }
+
+  /* поменять цвет текста на белый */
+  .M_NavDesktop a,
+  .M_NavMobile a {
+    color: var(--white);
+  }
+
+  /* + черный фон + белый бордер */
+  .M_NavMobile {
+    background-color: var(--black);
+    border-left: 2px solid var(--white);
+  }
+
+  /* + белый фон */
+  .A_BurgerButton span {
+    background-color: var(--white);
+  }
+
+  /* + белый бордер */
+  .A_BurgerButton {
+    border: 2px solid var(--white);
+  }
+}
+
+/* если белый фон и черный объект */
+.WhiteBack {
+  background-color: var(--white);
+
+  /* чтобы пропадали черные объекты предназначенные для белого фона */
+  .white {
+    display: none;
+  }
+
+  /* поменять цвет текста на белый */
+  .M_NavDesktop a,
+  .M_NavMobile a {
+    color: var(--black);
+  }
+
+  /* + черный фон + белый бордер */
+  .M_NavMobile {
+    background-color: var(--white);
+    border-left: 2px solid var(--black);
+  }
+
+  /* + черный бордер */
+  .A_BurgerButton {
+    border: 2px solid var(--black);
+  }
+
+  /* + черный фон */
+  .A_BurgerButton span {
+    background-color: var(--black);
+  }
+}

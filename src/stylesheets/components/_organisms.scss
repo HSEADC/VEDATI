@@ -1,0 +1,179 @@
+.O_NavBar {
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  z-index: 10;
+}
+.O_Footer {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px 100px 80px;
+}
+footer {
+  h5,
+  h6 {
+    font-family: 'PP Neue Montreal', sans-serif;
+  }
+}
+.O_FirstSlide {
+  background-image: url('/src/images/o_firstslideimg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.O_SecondSlide {
+  background-image: url('/src/images/o_secondslideimg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 77% 60%;
+}
+.O_ThirdSlide {
+  background-image: url('/src/images/o_thirdslideimg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80% 55%;
+}
+
+.O_HeadlineFull {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+
+  .O_HeadlineTop {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+    :nth-child(2) {
+      padding-top: 5px;
+    }
+
+    .A_Marker {
+      width: 236px;
+      height: 63px;
+
+      @media (max-width: 768px) {
+        width: 168px;
+        height: 45px;
+      }
+      a {
+        img {
+          width: 236px;
+          height: 64px;
+          transition: transform 0.2s ease;
+
+          @media (max-width: 768px) {
+            width: 175px;
+            height: 51px;
+          }
+        }
+      }
+    }
+
+    .A_AccentLine {
+      width: 60px;
+      height: 5px;
+      background-color: #00d4d4;
+      margin-top: 6px;
+      align-self: center;
+
+      @media (max-width: 768px) {
+        width: 26px;
+        height: 2px;
+        margin-top: 4px;
+      }
+    }
+
+    .A_Headline {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 0; // сброс дефолтного отступа
+    }
+  }
+
+  .A_Headline--bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0;
+  }
+  .A_Word {
+    font-family: 'PP Neue Montreal', sans-serif;
+    font-weight: 500;
+    font-size: 56px;
+    color: white;
+
+    @media (max-width: 768px) {
+      font-size: 38px;
+    }
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  .O_HeadlineFull .O_HeadlineTop {
+    width: 355px;
+  }
+}
+@media only screen and (min-width: 0) and (max-width: 360px) {
+  .O_HeadlineFull .A_Word {
+    font-size: 34px;
+  }
+}
+
+.O_ThirdSlide {
+  @media only screen and (min-width: 937px) and (max-width: 9999px) {
+    .O_HeadlineTop :nth-child(3) {
+      padding-top: 5px;
+    }
+  }
+}
+.O_FirstSlide {
+  .O_HeadlineTop :nth-child(3) {
+    padding-top: 0;
+  }
+  .O_HeadlineFull {
+    width: 922px;
+  }
+  @media only screen and (min-width: 0px) and (max-width: 1063px) {
+    .O_FirstSlide .O_HeadlineFull {
+      width: 841px;
+    }
+  }
+  .O_HeadlineFull .O_HeadlineTop {
+    gap: 0;
+  }
+  .A_Word {
+    margin: 6px;
+  }
+
+  .A_Word--break {
+    flex-basis: 100%;
+    width: 100%;
+    height: 0;
+    margin: 0px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1087px) {
+  .O_FirstSlide .O_HeadlineFull {
+    width: auto;
+  }
+  @media (max-width: 768px) {
+    .O_FirstSlide .A_Word--break {
+      flex-basis: auto;
+      width: auto;
+    }
+  }
+}
+.O_SecondSlide {
+  @media only screen and (min-width: 996px) and (max-width: 9999px) {
+    .O_HeadlineFull {
+      width: 860px;
+    }
+  }
+}

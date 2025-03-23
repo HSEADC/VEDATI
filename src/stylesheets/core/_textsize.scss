@@ -1,0 +1,25 @@
+footer {
+  font-size: 16px;
+  h6 {
+    font-size: 1em;
+  }
+
+  h5 {
+    font-size: 1.25em;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  footer {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 650px) {
+  footer {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 951px) and (max-width: 1050px) {
+  footer {
+    font-size: 12px;
+  }
+}

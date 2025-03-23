@@ -1,0 +1,41 @@
+.W_IconNavBarBox {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.W_LogoNavBox {
+  display: flex;
+}
+.W_RightFooter {
+  display: flex;
+  gap: 40px;
+  h5,
+  h6 {
+    color: var(--grey);
+  }
+  h6 {
+    padding: 6px 0 6px 0;
+  }
+  h5 {
+    padding: 6px 0 22px 0;
+  }
+}
+.W_CuratorsList,
+.W_CreatersList {
+  padding-left: 40px;
+}
+.W_ListBox {
+  display: flex;
+}
+.W_ListBox {
+  display: flex;
+}
+.M_TgVk {
+  display: flex;
+  gap: 20px;
+}
+.W_NetworksFooterBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
