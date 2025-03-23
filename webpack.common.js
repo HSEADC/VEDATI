@@ -14,15 +14,7 @@ module.exports = {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'docs'),
     clean: true,
-    publicPath: '/',
   },
-
-  resolve: {
-    alias: {
-      '@fonts': path.resolve(__dirname, 'src/fonts'),
-    },
-  },
-
   module: {
     rules: [
       {
@@ -48,22 +40,14 @@ module.exports = {
       },
       {
         test: /\.scss$/i,
-        use: [
-          MiniCssExtractPlugin.loader,
-          {
-            loader: 'css-loader',
-            options: {
-              url: true,
-            },
-          },
-          'sass-loader',
-        ],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
         test: /\.css$/i,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
+          'sass-loader',
           {
             loader: 'postcss-loader',
             options: {
@@ -74,9 +58,13 @@ module.exports = {
           },
         ],
       },
+
       {
         test: /\.html$/i,
         loader: 'html-loader',
+      },
+      {
+        test: /\.(woff|ttf|eot|svg)(\?v=[a-z0-9]\.[a-z0-9]\.[a-z0-9])?$/,
       },
       {
         resourceQuery: /raw/,
@@ -97,22 +85,21 @@ module.exports = {
         },
       },
       {
-        test: /\.(woff|woff2|ttf|otf)$/i,
-        type: 'asset/resource',
-        generator: {
-          filename: 'fonts/[name][ext]',
-          publicPath: '../',
+        test: /\.(ttf|otf)$/i,
+        loader: 'file-loader',
+        options: {
+          name: 'fonts/[name].[ext]',
         },
       },
     ],
   },
-
   plugins: [
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
       chunkFilename: '[id].[contenthash].css',
     }),
 
+    // Index
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
@@ -142,8 +129,17 @@ module.exports = {
       template: './src/error.html',
       filename: './error.html',
     }),
-  ],
 
+    // Partials
+    // new HtmlWebpackPartialsPlugin([
+    //   {
+    //     path: path.join(__dirname, './src/partials/analytics.html'),
+    //     location: 'analytics',
+    //     template_filename: '*',
+    //     priority: 'replace'
+    //   }
+    // ])
+  ],
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
   },
