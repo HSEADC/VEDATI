@@ -1,4 +1,4 @@
-import './index.css'
+import './index.scss'
 
 // отправляем на 404 вместо поиска
 

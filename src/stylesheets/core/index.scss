@@ -1,5 +1,5 @@
-@forward 'reset';
-@forward 'fonts';
-@forward 'vars';
-@forward 'base';
-@forward 'textsize';
+@import './reset';
+@import './fonts';
+@import './vars';
+@import './textsize';
+@import './base';

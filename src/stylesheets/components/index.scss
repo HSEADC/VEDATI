@@ -1,7 +1,7 @@
-@forward 'quarks';
-@forward 'atoms';
-@forward 'molecules';
-@forward 'wrappers';
-@forward 'collections';
-@forward 'organisms';
-@forward 'superOrganisms';
+@import './atoms';
+@import './molecules';
+@import './organisms';
+@import './superOrganisms';
+@import './wrappers';
+@import './collections';
+@import './quarks';
