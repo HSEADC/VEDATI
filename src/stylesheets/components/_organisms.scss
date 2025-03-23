@@ -67,11 +67,6 @@ footer {
           width: 236px;
           height: 64px;
           transition: transform 0.2s ease;
-
-          @media (max-width: 768px) {
-            width: 175px;
-            height: 51px;
-          }
         }
       }
     }
@@ -82,12 +77,6 @@ footer {
       background-color: #00d4d4;
       margin-top: 6px;
       align-self: center;
-
-      @media (max-width: 768px) {
-        width: 26px;
-        height: 2px;
-        margin-top: 4px;
-      }
     }
 
     .A_Headline {
@@ -109,30 +98,9 @@ footer {
     font-weight: 500;
     font-size: 56px;
     color: white;
-
-    @media (max-width: 768px) {
-      font-size: 38px;
-    }
-  }
-}
-@media (min-width: 500px) and (max-width: 768px) {
-  .O_HeadlineFull .O_HeadlineTop {
-    width: 355px;
-  }
-}
-@media only screen and (min-width: 0) and (max-width: 360px) {
-  .O_HeadlineFull .A_Word {
-    font-size: 34px;
   }
 }
 
-.O_ThirdSlide {
-  @media only screen and (min-width: 937px) and (max-width: 9999px) {
-    .O_HeadlineTop :nth-child(3) {
-      padding-top: 5px;
-    }
-  }
-}
 .O_FirstSlide {
   .O_HeadlineTop :nth-child(3) {
     padding-top: 0;
@@ -140,11 +108,7 @@ footer {
   .O_HeadlineFull {
     width: 922px;
   }
-  @media only screen and (min-width: 0px) and (max-width: 1063px) {
-    .O_FirstSlide .O_HeadlineFull {
-      width: 841px;
-    }
-  }
+
   .O_HeadlineFull .O_HeadlineTop {
     gap: 0;
   }
@@ -157,23 +121,5 @@ footer {
     width: 100%;
     height: 0;
     margin: 0px;
-  }
-}
-@media only screen and (min-width: 0px) and (max-width: 1087px) {
-  .O_FirstSlide .O_HeadlineFull {
-    width: auto;
-  }
-  @media (max-width: 768px) {
-    .O_FirstSlide .A_Word--break {
-      flex-basis: auto;
-      width: auto;
-    }
-  }
-}
-.O_SecondSlide {
-  @media only screen and (min-width: 996px) and (max-width: 9999px) {
-    .O_HeadlineFull {
-      width: 860px;
-    }
   }
 }

@@ -118,3 +118,73 @@
     }
   }
 }
+
+.A_AccentLine {
+  @media (max-width: 768px) {
+    width: 26px;
+    height: 2px;
+    margin-top: 4px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+  .O_HeadlineFull .O_HeadlineTop {
+    width: 355px;
+  }
+}
+@media only screen and (min-width: 0) and (max-width: 360px) {
+  .O_HeadlineFull .A_Word {
+    font-size: 34px;
+  }
+}
+.O_ThirdSlide {
+  @media only screen and (min-width: 937px) and (max-width: 9999px) {
+    .O_HeadlineTop :nth-child(3) {
+      padding-top: 5px;
+    }
+  }
+}
+.A_Marker {
+  @media (max-width: 768px) {
+  }
+  a {
+    img {
+      @media (max-width: 768px) {
+        width: 175px;
+        height: 51px;
+      }
+    }
+  }
+}
+.O_HeadlineFull {
+  & .A_Word {
+    @media (max-width: 768px) {
+      font-size: 38px;
+    }
+  }
+}
+.O_FirstSlide {
+  @media only screen and (min-width: 0px) and (max-width: 1063px) {
+    .O_FirstSlide .O_HeadlineFull {
+      width: 841px;
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 1087px) {
+  .O_FirstSlide .O_HeadlineFull {
+    width: auto;
+  }
+  @media (max-width: 768px) {
+    .O_FirstSlide .A_Word--break {
+      flex-basis: auto;
+      width: auto;
+    }
+  }
+}
+.O_SecondSlide {
+  @media only screen and (min-width: 996px) and (max-width: 9999px) {
+    .O_HeadlineFull {
+      width: 860px;
+    }
+  }
+}

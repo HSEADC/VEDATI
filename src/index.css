@@ -4,8 +4,6 @@
 @import './stylesheets/core/_textsize.scss';
 @import './stylesheets/core/_base.scss';
 
-@import './stylesheets/layout/_adaptive-comp.scss';
-
 @import './stylesheets/components/_atoms.scss';
 @import './stylesheets/components/_molecules.scss';
 @import './stylesheets/components/_organisms.scss';
@@ -13,3 +11,5 @@
 @import './stylesheets/components/_wrappers.scss';
 @import './stylesheets/components/_collections.scss';
 @import './stylesheets/components/_quarks.scss';
+
+@import './stylesheets/layout/_adaptive-comp.scss';
