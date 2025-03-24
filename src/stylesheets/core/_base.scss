@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 /* если темный фон и белый объект */
 .BlackBack {
   background-color: var(--black);
@@ -92,5 +98,15 @@
   .arrow-icon {
     stroke: var(--white);
     transition: stroke 0.3s ease;
+  }
+}
+.S_LibraryWordScreen {
+  padding: 80px;
+  height: auto;
+  width: 100%;
+}
+@media only screen and (min-width: 0px) and (max-width: 901px) {
+  .S_LibraryWordScreen {
+    padding: 80px 20px;
   }
 }

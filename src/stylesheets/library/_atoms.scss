@@ -1,0 +1,74 @@
+.A_FilterBtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.A_FilterBtn::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.A_FilterBtn:hover::after,
+.A_FilterBtn.active::after {
+  opacity: 1;
+}
+.A_SubFilterBtn {
+  padding: 8px 12px;
+  border: 1px solid white;
+  border-radius: 15px;
+  background: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.A_SubFilterBtn:hover,
+.A_SubFilterBtn.active {
+  background: white;
+  color: black;
+}
+
+.A_TagsRed {
+  border: 2px solid var(--red);
+}
+
+.A_TagsWord,
+.A_TagsRed {
+  font-family: 'PP Neue Montreal', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
+  @media (max-width: 350px) {
+    font-size: 8px;
+  }
+}
+.A_TagsWord,
+.A_TagsRed {
+  padding: 4px 9px 5px 9px;
+  width: fit-content;
+  border-radius: 8px;
+  @media (max-width: 600px) {
+    padding: 1px 13px 2px 13px;
+  }
+}
+.A_TagsWord,
+.A_TagsRed {
+  @media (max-width: 359px) {
+    padding: 1px 5px 2px 5px;
+  }
+  @media (max-width: 500px) {
+    padding: 1px 7px 2px 7px;
+  }
+}

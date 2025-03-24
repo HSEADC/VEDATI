@@ -1,0 +1,26 @@
+@media (min-width: 901px) {
+  .O_Card {
+    width: 19.5vw;
+    height: 23.611vw;
+  }
+
+  .A_CardLarge {
+    width: 40.4vw;
+    height: 19.097vw;
+  }
+}
+@media (max-width: 900px) {
+  .S_CardGrid {
+    gap: 5.089vw;
+  }
+
+  .O_Card {
+    width: 41vw;
+    height: 55.471vw;
+  }
+
+  .A_CardLarge {
+    width: 88.822vw;
+    height: 45.547vw;
+  }
+}

@@ -1,8 +1,15 @@
 html {
   font-size: 16px;
 }
+h3 {
+  font-size: clamp(28px, 8.14vw, 48px);
+}
+
 h5 {
   font-size: 1.25rem;
+}
+h6 {
+  font-size: clamp(9px, 2.8vw, 16px);
 }
 
 @media only screen and (min-width: 0px) and (max-width: 500px) {

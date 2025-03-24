@@ -1,0 +1,13 @@
+.O_Filters {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.O_Card {
+  border: 2px solid wheat;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
