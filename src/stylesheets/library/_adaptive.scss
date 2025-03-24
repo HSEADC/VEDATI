@@ -24,3 +24,11 @@
     height: 45.547vw;
   }
 }
+.A_CardLarge {
+  padding: 50px 14px;
+  display: flex;
+  align-items: flex-end;
+  @media (max-width: 500px) {
+    padding: 33px 14px;
+  }
+}

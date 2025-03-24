@@ -6,6 +6,9 @@
 }
 .S_LibraryWordScreen {
   .S_CardGrid {
-    padding-top: 12vw;
+    padding-top: 6vw;
+    @media (max-width: 900px) {
+      padding-top: 12vw;
+    }
   }
 }

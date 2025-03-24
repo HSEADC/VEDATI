@@ -11,3 +11,31 @@
     gap: 6px;
   }
 }
+.W_TextWordBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  h2 {
+    font-family: 'TD Rukopis';
+    color: var(--white);
+    font-size: clamp(36px, 3.611vw, 52px);
+    text-transform: uppercase;
+    text-align: end;
+    padding-bottom: 13px;
+    @media (max-width: 900px) {
+      font-size: clamp(48px, 7.56vw, 68px);
+    }
+    @media (max-width: 500px) {
+      font-size: clamp(24px, 8.22vw, 37px);
+      padding-bottom: 6px;
+    }
+  }
+  div {
+    font-family: 'PP Neue Montreal', sans-serif;
+    color: var(--white);
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: end;
+  }
+}

@@ -19,6 +19,7 @@
 @import './stylesheets/library/_wrappers.scss';
 @import './stylesheets/library/_collections.scss';
 @import './stylesheets/library/_quarks.scss';
+@import './stylesheets/library/_background.scss';
 @import './stylesheets/library/_adaptive.scss';
 
 @import './stylesheets/layout/_adaptive-comp.scss';
