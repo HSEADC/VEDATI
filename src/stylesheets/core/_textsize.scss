@@ -11,6 +11,14 @@ h5 {
 h6 {
   font-size: clamp(9px, 2.8vw, 16px);
 }
+h4 {
+  font-size: clamp(17px, 2.4vw, 44px);
+  text-transform: uppercase;
+
+  @media (max-width: 900px) {
+    font-size: clamp(25px, 6.62vw, 56px);
+  }
+}
 
 @media only screen and (min-width: 0px) and (max-width: 500px) {
   html {

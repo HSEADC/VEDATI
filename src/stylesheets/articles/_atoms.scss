@@ -1,0 +1,25 @@
+.A_TagsTime {
+  color: var(--white);
+}
+.A_TimeBadgeIcon {
+  width: 14px;
+  height: 14px;
+  background-image: url('/src/images/star.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
+  position: absolute;
+  top: -8px;
+  left: -7px;
+}
+.A_TagsTime {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: white;
+  font-family: 'PP Neue Montreal', sans-serif;
+  font-weight: 500;
+  font-size: clamp(9px, 1.4vw, 16px);
+}

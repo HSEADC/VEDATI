@@ -4,11 +4,3 @@
   justify-content: center;
   gap: 1.389vw;
 }
-.S_LibraryWordScreen {
-  .S_CardGrid {
-    padding-top: 6vw;
-    @media (max-width: 900px) {
-      padding-top: 12vw;
-    }
-  }
-}

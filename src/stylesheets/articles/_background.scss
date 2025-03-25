@@ -1,0 +1,18 @@
+.back1 {
+  background-image: url('/src/images/back1.webp');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  @media (max-width: 900px) {
+    background-image: url('/src/images/back1m.webp');
+  }
+}
+.back2 {
+  background-image: url('/src/images/back2.webp');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  @media (max-width: 900px) {
+    background-image: url('/src/images/back2m.webp');
+  }
+}

@@ -1,0 +1,30 @@
+.W_TagsBoxForBig {
+  display: flex;
+  gap: 34px;
+  flex-direction: column;
+}
+.W_TextMemeBox {
+  display: flex;
+  justify-content: space-between;
+  img {
+    height: 10vw;
+  }
+  @media (max-width: 900px) {
+    flex-direction: column;
+    img {
+      height: 38vw;
+      width: auto;
+    }
+  }
+}
+.W_FlexMeme {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.NoMeme {
+  opacity: 0;
+}
+.W_TagsBox {
+  align-items: center;
+}

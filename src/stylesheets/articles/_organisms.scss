@@ -1,0 +1,45 @@
+.O_SmallArticle {
+  position: relative;
+  background-color: black;
+  height: 29vw;
+  width: 49.2%;
+  position: relative;
+  @media (max-width: 900px) {
+    height: 120vw;
+    width: 100%;
+    margin-bottom: 5.089vw;
+  }
+}
+.O_BigArticle {
+  position: relative;
+  background-color: black;
+  height: 29vw;
+  width: 100%;
+  margin-bottom: 1.389vw;
+  @media (max-width: 900px) {
+    height: 120vw;
+    margin-bottom: 5.089vw;
+  }
+  .W_TagsBox {
+    align-items: center;
+    .A_TagsRed {
+      background-color: var(--red);
+      color: white;
+      border: none;
+    }
+  }
+}
+.O_BigArticle,
+.O_SmallArticle {
+  border-radius: 8px;
+  padding: 75px 25px 55px;
+  @media (max-width: 900px) {
+    padding: 112px 25px 55px;
+  }
+}
+
+.S_ArticlesCard {
+  .W_TagsBox {
+    gap: 8px;
+  }
+}

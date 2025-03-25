@@ -1,65 +1,68 @@
-.how-how {
-  border: 2px solid var(--green);
-}
-.who-who {
-  border: 2px solid var(--coral);
-}
-.things {
-  border: 2px solid var(--violet);
-}
-.tenderness {
-  border: 2px solid var(--pink);
-}
-.whatdoing {
-  border: 2px solid var(--blue);
-}
-.idioms {
-  border: 2px solid var(--mint);
-}
-.sayings {
-  border: 2px solid var(--orange);
-}
-.proverbs {
-  border: 2px solid var(--yellow);
-}
-
-.how-how {
-  .A_TagsWord {
+.S_CardGrid {
+  .how-how {
     border: 2px solid var(--green);
   }
-}
-.who-who {
-  .A_TagsWord {
+  .who-who {
     border: 2px solid var(--coral);
   }
-}
-.things {
-  .A_TagsWord {
+  .things {
     border: 2px solid var(--violet);
   }
-}
-.tenderness {
-  .A_TagsWord {
+  .tenderness {
     border: 2px solid var(--pink);
   }
-}
-.whatdoing {
-  .A_TagsWord {
+  .whatdoing {
     border: 2px solid var(--blue);
   }
-}
-.idioms {
-  .A_TagsWord {
+  .idioms {
     border: 2px solid var(--mint);
   }
+  .sayings {
+    border: 2px solid var(--orange);
+  }
+  .proverbs {
+    border: 2px solid var(--yellow);
+  }
+
+  .how-how {
+    .A_TagsWord {
+      border: 2px solid var(--green);
+    }
+  }
+  .who-who {
+    .A_TagsWord {
+      border: 2px solid var(--coral);
+    }
+  }
+  .things {
+    .A_TagsWord {
+      border: 2px solid var(--violet);
+    }
+  }
+  .tenderness {
+    .A_TagsWord {
+      border: 2px solid var(--pink);
+    }
+  }
+  .whatdoing {
+    .A_TagsWord {
+      border: 2px solid var(--blue);
+    }
+  }
+  .idioms {
+    .A_TagsWord {
+      border: 2px solid var(--mint);
+    }
+  }
+  .A_TagsWord {
+    border: 2px solid var(--orange);
+  }
 }
+
 .sayings {
   transition: background-color 0.3s ease;
   &:hover {
     background-color: var(--orange);
-  }
-  .A_TagsWord {
-    border: 2px solid var(--orange);
   }
 }
 .proverbs {
@@ -67,7 +70,6 @@
     border: 2px solid var(--yellow);
   }
 }
-
 .how-how {
   transition: background-color 0.3s ease;
   &:hover {

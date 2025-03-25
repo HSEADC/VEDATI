@@ -185,20 +185,3 @@
     color: var(--black);
   }
 }
-
-@media (min-width: 0px) and (max-width: 901px) {
-  .W_ButtonH6Box,
-  .W_ButtonH6Box2 {
-    flex-direction: column;
-    gap: 30px;
-    align-items: flex-end;
-  }
-  .A_RedButton {
-    width: 38px;
-    height: 38px;
-    .arrow-icon {
-      width: 12px;
-      height: 12px;
-    }
-  }
-}
