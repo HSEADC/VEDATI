@@ -96,3 +96,84 @@ body {
   background-size: cover;
   margin-left: 6px;
 }
+
+.S_NetworksBox {
+  background-color: var(--white);
+  .S_CardGrid {
+    padding-bottom: 80px;
+  }
+  .O_Card {
+    background-color: var(--black);
+    border: none;
+    padding: 25px;
+    align-items: flex-start;
+    justify-content: space-between;
+    @media (max-width: 580px) {
+      padding: 15px;
+    }
+    @media (max-width: 450px) {
+      padding: 15px;
+    }
+    .W_TextWordBox {
+      align-items: flex-start;
+    }
+  }
+  .A_CardLarge {
+    padding: 0;
+    border: none;
+    background-color: var(--white);
+    height: fit-content;
+    @media (max-width: 800px) {
+    }
+  }
+}
+
+#A_TgImg,
+#A_VkImg {
+  height: 13.75vw;
+  width: auto;
+  @media (min-width: 901px) {
+    height: 10.75vw;
+  }
+  @media (max-width: 900px) {
+    height: 31.75vw;
+  }
+  @media (max-width: 580px) {
+    height: 26.75vw;
+  }
+  @media (max-width: 450px) {
+    height: 22.75vw;
+  }
+}
+.W_ImgNetworksBox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.M_DesktopText {
+  @media (min-width: 901px) {
+    display: block;
+  }
+}
+.S_NetworksBox {
+  .M_MobileText {
+    @media (max-width: 1358px) {
+      display: flex;
+    }
+  }
+  .M_DesktopText {
+    @media (min-width: 1359px) {
+      display: flex;
+    }
+  }
+}
+@media (min-width: 1151px) and (max-width: 1358px) {
+  .S_NetworksBox {
+    .M_DesktopText {
+      display: none;
+    }
+  }
+}
+@media (min-width: 1151px) and (max-width: 1358px) {
+}
