@@ -38,6 +38,10 @@
     position: absolute;
     top: -12px;
     left: -8px;
+    @media (max-width: 600px) {
+      top: -11px;
+      left: 0px;
+    }
   }
 }
 

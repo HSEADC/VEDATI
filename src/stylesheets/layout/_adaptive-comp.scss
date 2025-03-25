@@ -238,15 +238,7 @@
     -webkit-blur: (0px) opacity(1);
   }
 }
-.A_Tags_Word {
-  @media (max-width: 600px) {
-    padding-bottom: 2px;
-    padding-left: 13px;
-    padding-right: 13px;
-    padding-top: 1px;
-    font-size: 12px;
-  }
-}
+
 .S_TestsCard {
   .ArticleWhite {
     @media (max-width: 600px) {
@@ -273,10 +265,10 @@
         .A_TagsTime,
         .A_TagsRed {
           padding-bottom: 2px;
-          padding-left: 13px;
-          padding-right: 13px;
+          padding-left: 8px;
+          padding-right: 8px;
           padding-top: 1px;
-          font-size: 12px;
+          font-size: 10px;
         }
       }
     }
@@ -290,10 +282,56 @@
         .A_TagsWord,
         .A_TagsTime {
           padding-bottom: 2px;
-          padding-left: 13px;
-          padding-right: 13px;
+          padding-left: 8px;
+          padding-right: 8px;
           padding-top: 1px;
-          font-size: 12px;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+/* тэги правки размера  */
+
+.S_ArticlesCard {
+  .O_BigArticle {
+    @media (max-width: 600px) {
+      .W_TagsBox {
+        .A_TagsWord {
+          .A_TagsTime {
+            .A_TagsRed {
+              padding-bottom: 2px;
+              padding-left: 8px;
+              padding-right: 8px;
+              padding-top: 1px;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.S_ArticlesCard .W_TagsBox {
+  @media (max-width: 600px) {
+    gap: 6px;
+  }
+}
+
+.S_ArticlesCard {
+  .O_SmallArticle {
+    @media (max-width: 600px) {
+      .W_TagsBox {
+        .A_TagsWord {
+          .A_TagsTime {
+            padding-bottom: 2px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 1px;
+            font-size: 10px;
+          }
         }
       }
     }
