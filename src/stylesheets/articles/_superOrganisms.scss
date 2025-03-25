@@ -34,12 +34,12 @@
       .A_TagsWord,
       .A_TagsRed {
         @media (max-width: 900px) {
-          padding: 6px 14px 7px 14px;
+          padding: 6px 14px 5px 14px;
           font-size: 16px;
         }
         @media (max-width: 470px) {
           font-size: clamp(9px, 1.4vw, 16px);
-          padding: 6px 8px 7px 9px;
+          padding: 6px 8px 5px 9px;
         }
       }
     }
