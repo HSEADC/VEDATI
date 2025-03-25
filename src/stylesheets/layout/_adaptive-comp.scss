@@ -340,13 +340,14 @@
 
 @keyframes fade-to-black {
   0% {
-    opacity: 0;
+    filter: blur(50px);
+    opacity: 1%;
   }
   50% {
-    opacity: 0;
+    opacity: 50%%;
   }
   100% {
-    opacity: 1;
+    opacity: 100%;
   }
 }
 
@@ -355,6 +356,6 @@
     opacity: 1;
     pointer-events: auto;
     z-index: 1;
-    animation: fade-to-black 0.6s ease-in-out both;
+    animation: fade-to-black 1s ease-in-out both;
   }
 }
