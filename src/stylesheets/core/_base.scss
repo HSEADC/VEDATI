@@ -1,4 +1,12 @@
 * {
+  border-width: 1.5px !important;
+}
+.no-pointer {
+  &:hover {
+    transform: none;
+  }
+}
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
