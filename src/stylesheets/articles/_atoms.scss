@@ -23,3 +23,17 @@
   font-weight: 500;
   font-size: clamp(9px, 1.4vw, 16px);
 }
+.W_WhiteBack {
+  .A_RedButton {
+    &:hover {
+      background-color: var(--black);
+      .arrow-icon {
+        stroke: var(--white);
+      }
+    }
+    .arrow-icon {
+      stroke: var(--black);
+      transition: stroke 0.3s ease;
+    }
+  }
+}

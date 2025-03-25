@@ -58,87 +58,152 @@
     border: 2px solid var(--orange);
   }
 }
-
-.sayings {
-  transition: background-color 0.3s ease;
-  &:hover {
-    background-color: var(--orange);
-  }
-}
 .proverbs {
   .A_TagsWord {
     border: 2px solid var(--yellow);
   }
 }
+/* бэкграунд */
+
+.sayings {
+  transition: background-color 0.3s ease;
+}
+
 .how-how {
   transition: background-color 0.3s ease;
-  &:hover {
-    background-color: var(--green);
-  }
+
   .A_TagsWord {
     background-color: var(--green);
   }
 }
 .who-who {
   transition: background-color 0.3s ease;
-  &:hover {
-    background-color: var(--coral);
-  }
+
   .A_TagsWord {
     background-color: var(--coral);
   }
 }
 .things {
   transition: background-color 0.3s ease;
-  &:hover {
-    background-color: var(--violet);
-  }
+
   .A_TagsWord {
     background-color: var(--violet);
   }
 }
 .tenderness {
   transition: background-color 0.3s ease;
-  &:hover {
-    background-color: var(--pink);
-  }
+
   .A_TagsWord {
     background-color: var(--pink);
   }
 }
 .whatdoing {
   transition: background-color 0.3s ease;
-  &:hover {
-    background-color: var(--blue);
-  }
+
   .A_TagsWord {
     background-color: var(--blue);
   }
 }
 .idioms {
   transition: background-color 0.3s ease;
-  &:hover {
-    background-color: var(--mint);
-  }
+
   .A_TagsWord {
     background-color: var(--mint);
   }
 }
 .sayings {
   transition: background-color 0.3s ease;
-  &:hover {
-    background-color: var(--orange);
-  }
+
   .A_TagsWord {
     background-color: var(--orange);
   }
 }
 .proverbs {
   transition: background-color 0.3s ease;
-  &:hover {
-    background-color: var(--yellow);
-  }
+
   .A_TagsWord {
     background-color: var(--yellow);
+  }
+}
+/* ховеры */
+.S_LibraryWordScreen {
+  .sayings {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--orange);
+    }
+  }
+
+  .how-how {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--green);
+    }
+    .A_TagsWord {
+      background-color: var(--green);
+    }
+  }
+  .who-who {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--coral);
+    }
+    .A_TagsWord {
+      background-color: var(--coral);
+    }
+  }
+  .things {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--violet);
+    }
+    .A_TagsWord {
+      background-color: var(--violet);
+    }
+  }
+  .tenderness {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--pink);
+    }
+    .A_TagsWord {
+      background-color: var(--pink);
+    }
+  }
+  .whatdoing {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--blue);
+    }
+    .A_TagsWord {
+      background-color: var(--blue);
+    }
+  }
+  .idioms {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--mint);
+    }
+    .A_TagsWord {
+      background-color: var(--mint);
+    }
+  }
+  .sayings {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--orange);
+    }
+    .A_TagsWord {
+      background-color: var(--orange);
+    }
+  }
+  .proverbs {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--yellow);
+    }
+    .A_TagsWord {
+      background-color: var(--yellow);
+    }
   }
 }

@@ -1,6 +1,6 @@
 .O_SmallArticle {
   position: relative;
-  background-color: black;
+  background-color: var(--black);
   height: 29vw;
   width: 49.2%;
   position: relative;
@@ -31,15 +31,26 @@
 }
 .O_BigArticle,
 .O_SmallArticle {
+  transition: transform 0.2s ease;
+  cursor: pointer;
   border-radius: 8px;
   padding: 75px 25px 55px;
+  &:hover {
+    transform: scale(1.01);
+  }
   @media (max-width: 900px) {
     padding: 112px 25px 55px;
+  }
+}
+.W_ForHeader {
+  cursor: auto;
+  &:hover {
+    transform: none;
   }
 }
 
 .S_ArticlesCard {
   .W_TagsBox {
-    gap: 8px;
+    gap: 17px;
   }
 }

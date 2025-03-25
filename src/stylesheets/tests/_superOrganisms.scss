@@ -1,0 +1,102 @@
+.S_TestsCard {
+  background-color: var(--black);
+  padding-top: 0;
+}
+.ArticleBlack {
+  background-color: var(--black);
+}
+
+.ArticleWhite {
+  background-color: var(--white);
+  .W_TagsBox {
+    .A_TagsTime {
+      color: var(--black);
+    }
+  }
+}
+.ArticleWhite {
+  h4 {
+    color: var(--black);
+  }
+}
+.ArticleWhite {
+  .W_TextMemeBox {
+    h6 {
+      color: var(--black);
+    }
+  }
+}
+.S_TestsCard {
+  .A_TimeBadgeIcon {
+    width: 14px;
+    height: 14px;
+    background-image: url('/src/images/starb.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+    position: absolute;
+    top: -8px;
+    left: -7px;
+  }
+}
+
+.S_TestsCard {
+  .W_ForHeader {
+    height: 29vw;
+    .M_ScreenHeader {
+      padding: 0;
+      height: 29vw;
+      .W_ButtonH6Box2 {
+        width: fit-content;
+        align-items: flex-end;
+        height: 77%;
+      }
+    }
+  }
+}
+.S_TestsCard {
+  .W_ForHeader {
+    .M_DesktopText {
+      width: fit-content;
+    }
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1150px) {
+  .S_TestsCard {
+    .O_SmallArticle {
+      height: 44vw;
+      width: 49.2%;
+    }
+  }
+
+  .ArticleWhite {
+    display: flex;
+    flex-direction: column;
+  }
+  .S_TestsCard {
+    .W_TextMemeBox {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-content: space-between;
+    }
+  }
+
+  .S_TestsCard {
+    .W_FlexMeme {
+      padding: 3vw 0 0 0;
+    }
+  }
+  .S_TestsCard .W_ForHeader .M_ScreenHeader {
+    height: 39.3vw;
+  }
+  .M_DesktopText {
+    display: none;
+  }
+  .M_MobileText {
+    display: flex;
+  }
+}

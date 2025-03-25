@@ -11,8 +11,15 @@
   }
   @media (max-width: 900px) {
     flex-direction: column;
+  }
+  img {
+    height: 38vw;
+    width: auto;
+  }
+  @media (max-width: 362px) {
+    flex-direction: column;
     img {
-      height: 38vw;
+      height: 30vw;
       width: auto;
     }
   }

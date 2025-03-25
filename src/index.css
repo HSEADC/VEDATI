@@ -32,4 +32,14 @@
 @import './stylesheets/articles/_background.scss';
 @import './stylesheets/articles/_adaptive.scss';
 
+@import './stylesheets/tests/_atoms.scss';
+@import './stylesheets/tests/_molecules.scss';
+@import './stylesheets/tests/_organisms.scss';
+@import './stylesheets/tests/_superOrganisms.scss';
+@import './stylesheets/tests/_wrappers.scss';
+@import './stylesheets/tests/_collections.scss';
+@import './stylesheets/tests/_quarks.scss';
+@import './stylesheets/tests/_background.scss';
+@import './stylesheets/tests/_adaptive.scss';
+
 @import './stylesheets/layout/_adaptive-comp.scss';
