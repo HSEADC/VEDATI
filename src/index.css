@@ -12,6 +12,7 @@
 @import './stylesheets/components/_collections.scss';
 @import './stylesheets/components/_quarks.scss';
 
+@import './stylesheets/library/_filter.scss';
 @import './stylesheets/library/_atoms.scss';
 @import './stylesheets/library/_molecules.scss';
 @import './stylesheets/library/_organisms.scss';

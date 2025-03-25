@@ -39,3 +39,14 @@
     text-align: end;
   }
 }
+.W_OtherHeader {
+  .M_ScreenHeader {
+    padding: 160px 80px 47px 80px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.A_FilterBtn {
+  font-family: 'PP Neue Montreal', sans-serif;
+  font-size: clamp(18px, 4.36vw, 34px);
+}

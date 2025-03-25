@@ -1,6 +1,9 @@
 .M_SubFilters {
   display: none;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
+  @media (max-width: 660px) {
+    gap: 9px;
+  }
 }

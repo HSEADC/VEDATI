@@ -1,0 +1,119 @@
+.A_Filter {
+  font-family: 'PP Neue Montreal', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 6px 19px 7px 19px;
+  width: fit-content;
+  border-radius: 12px;
+  @media (max-width: 600px) {
+    padding: 1px 13px 2px 13px;
+  }
+  @media (max-width: 500px) {
+    padding: 1px 7px 2px 7px;
+  }
+  @media (max-width: 450px) {
+    font-size: 8px;
+  }
+}
+
+.A_SubFilterBtn {
+  border: 1px solid white;
+
+  background: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.A_SubFilterBtn:hover,
+.A_SubFilterBtn.active {
+  background: white;
+  color: black;
+}
+
+.A_thingsFilter {
+  border: 2px solid var(--violet);
+  background: transparent;
+  transition: background 0.3s ease;
+
+  &:hover,
+  &.active {
+    background: var(--violet);
+  }
+}
+
+.A_how-howFilter {
+  border: 2px solid var(--green);
+  background: transparent;
+  transition: background 0.3s ease;
+
+  &:hover,
+  &.active {
+    background: var(--green);
+  }
+}
+
+.A_who-whoFilter {
+  border: 2px solid var(--coral);
+  background: transparent;
+  transition: background 0.3s ease;
+
+  &:hover,
+  &.active {
+    background: var(--coral);
+  }
+}
+
+.A_whatdoingFilter {
+  border: 2px solid var(--blue);
+  background: transparent;
+  transition: background 0.3s ease;
+
+  &:hover,
+  &.active {
+    background: var(--blue);
+  }
+}
+
+.A_tendernessFilter {
+  border: 2px solid var(--pink);
+  background: transparent;
+  transition: background 0.3s ease;
+
+  &:hover,
+  &.active {
+    background: var(--pink);
+  }
+}
+
+.A_proverbsFilter {
+  border: 2px solid var(--mint);
+  background: transparent;
+  transition: background 0.3s ease;
+
+  &:hover,
+  &.active {
+    background: var(--mint);
+  }
+}
+
+.A_idiomsFilter {
+  border: 2px solid var(--yellow);
+  background: transparent;
+  transition: background 0.3s ease;
+
+  &:hover,
+  &.active {
+    background: var(--yellow);
+  }
+}
+
+.A_sayingsFilter {
+  border: 2px solid var(--orange);
+  background: transparent;
+  transition: background 0.3s ease;
+
+  &:hover,
+  &.active {
+    background: var(--orange);
+  }
+}

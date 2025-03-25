@@ -9,6 +9,7 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
+    library: './src/scripts/library.js',
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -104,30 +105,37 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html',
       inject: 'body',
+      chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: './about.html',
+      chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
       template: './src/article/article.html',
       filename: './article/article.html',
+      chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
       template: './src/articles.html',
       filename: './articles.html',
+      chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
       template: './src/library.html',
       filename: './library.html',
+      chunks: ['index', 'library'],
     }),
     new HtmlWebpackPlugin({
       template: './src/tests.html',
       filename: './tests.html',
+      chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
       template: './src/error.html',
       filename: './error.html',
+      chunks: ['index'],
     }),
 
     // Partials

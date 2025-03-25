@@ -15,13 +15,13 @@
     border: 2px solid var(--blue);
   }
   .idioms {
-    border: 2px solid var(--mint);
+    border: 2px solid var(--yellow);
   }
   .sayings {
     border: 2px solid var(--orange);
   }
   .proverbs {
-    border: 2px solid var(--yellow);
+    border: 2px solid var(--mint);
   }
 
   .how-how {
@@ -51,7 +51,7 @@
   }
   .idioms {
     .A_TagsWord {
-      border: 2px solid var(--mint);
+      border: 2px solid var(--yellow);
     }
   }
   .A_TagsWord {
@@ -60,7 +60,7 @@
 }
 .proverbs {
   .A_TagsWord {
-    border: 2px solid var(--yellow);
+    border: 2px solid var(--mint);
   }
 }
 /* бэкграунд */
@@ -108,7 +108,7 @@
   transition: background-color 0.3s ease;
 
   .A_TagsWord {
-    background-color: var(--mint);
+    background-color: var(--yellow);
   }
 }
 .sayings {
@@ -122,7 +122,7 @@
   transition: background-color 0.3s ease;
 
   .A_TagsWord {
-    background-color: var(--yellow);
+    background-color: var(--mint);
   }
 }
 /* ховеры */
@@ -182,10 +182,10 @@
   .idioms {
     transition: background-color 0.3s ease;
     &:hover {
-      background-color: var(--mint);
+      background-color: var(--yellow);
     }
     .A_TagsWord {
-      background-color: var(--mint);
+      background-color: var(--yellow);
     }
   }
   .sayings {
@@ -200,10 +200,135 @@
   .proverbs {
     transition: background-color 0.3s ease;
     &:hover {
+      background-color: var(--mint);
+    }
+    .A_TagsWord {
+      background-color: var(--mint);
+    }
+  }
+}
+
+/* ховеры в самой библиотеке */
+.S_CardGrid {
+  .sayings {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--orange);
+    }
+  }
+
+  .how-how {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--green);
+    }
+    .A_TagsWord {
+      background-color: var(--green);
+    }
+  }
+  .who-who {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--coral);
+    }
+    .A_TagsWord {
+      background-color: var(--coral);
+    }
+  }
+  .things {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--violet);
+    }
+    .A_TagsWord {
+      background-color: var(--violet);
+    }
+  }
+  .tenderness {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--pink);
+    }
+    .A_TagsWord {
+      background-color: var(--pink);
+    }
+  }
+  .whatdoing {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--blue);
+    }
+    .A_TagsWord {
+      background-color: var(--blue);
+    }
+  }
+  .idioms {
+    transition: background-color 0.3s ease;
+    &:hover {
       background-color: var(--yellow);
     }
     .A_TagsWord {
       background-color: var(--yellow);
+    }
+  }
+  .sayings {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--orange);
+    }
+    .A_TagsWord {
+      background-color: var(--orange);
+    }
+  }
+  .proverbs {
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: var(--mint);
+    }
+    .A_TagsWord {
+      background-color: var(--mint);
+    }
+  }
+}
+
+/*бордеры тэгов статей */
+.sayings {
+  .W_TagsBox {
+    .A_TagsWord {
+      border: 2px var(--orange) solid;
+    }
+    .A_TagsRed {
+      border: 2px var(--red) solid;
+    }
+  }
+}
+.things {
+  .W_TagsBox {
+    .A_TagsWord {
+      border: 2px var(--violet) solid;
+    }
+    .A_TagsRed {
+      border: 2px var(--red) solid;
+    }
+  }
+}
+.whatdoing {
+  .W_TagsBox {
+    .A_TagsWord {
+      border: 2px var(--blue) solid;
+    }
+    .A_TagsRed {
+      border: 2px var(--red) solid;
+    }
+  }
+}
+.S_TestsCard {
+  .ArticleWhite {
+    .W_TagsBox {
+      .A_TagsWord {
+        border: 2px var(--red) solid;
+        background-color: var(--red);
+      }
     }
   }
 }

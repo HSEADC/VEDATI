@@ -1,13 +1,12 @@
 .A_FilterBtn {
   background: none;
   border: none;
-  color: white;
+  color: var(--white);
   font-size: 18px;
   cursor: pointer;
   padding-bottom: 5px;
   position: relative;
 }
-
 .A_FilterBtn::after {
   content: '';
   position: absolute;
@@ -15,27 +14,14 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: white;
+  background: var(--red);
   opacity: 0;
   transition: opacity 0.3s;
 }
+
 .A_FilterBtn:hover::after,
 .A_FilterBtn.active::after {
   opacity: 1;
-}
-.A_SubFilterBtn {
-  padding: 8px 12px;
-  border: 1px solid white;
-  border-radius: 15px;
-  background: none;
-  color: white;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.A_SubFilterBtn:hover,
-.A_SubFilterBtn.active {
-  background: white;
-  color: black;
 }
 
 .A_TagsRed {
