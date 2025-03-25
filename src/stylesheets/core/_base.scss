@@ -125,3 +125,10 @@
     padding-top: 12vw;
   }
 }
+.S_NetworksBox {
+  .M_ScreenHeader {
+    @media (max-width: 900px) {
+      padding-top: 0;
+    }
+  }
+}
