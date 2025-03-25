@@ -340,12 +340,11 @@
 
 @keyframes fade-to-black {
   0% {
-    filter: blur(25px);
-    opacity: 1%;
+    filter: blur(25px) opacity(0.01);
   }
 
   100% {
-    opacity: 100%;
+    filter: blur(0px) opacity(1);
   }
 }
 
