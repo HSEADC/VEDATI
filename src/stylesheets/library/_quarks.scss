@@ -207,3 +207,45 @@
     }
   }
 }
+
+/*бордеры тэгов статей */
+.sayings {
+  .W_TagsBox {
+    .A_TagsWord {
+      border: 2px var(--orange) solid;
+    }
+    .A_TagsRed {
+      border: 2px var(--red) solid;
+    }
+  }
+}
+.things {
+  .W_TagsBox {
+    .A_TagsWord {
+      border: 2px var(--violet) solid;
+    }
+    .A_TagsRed {
+      border: 2px var(--red) solid;
+    }
+  }
+}
+.whatdoing {
+  .W_TagsBox {
+    .A_TagsWord {
+      border: 2px var(--blue) solid;
+    }
+    .A_TagsRed {
+      border: 2px var(--red) solid;
+    }
+  }
+}
+.S_TestsCard {
+  .ArticleWhite {
+    .W_TagsBox {
+      .A_TagsWord {
+        border: 2px var(--red) solid;
+        background-color: var(--red);
+      }
+    }
+  }
+}
