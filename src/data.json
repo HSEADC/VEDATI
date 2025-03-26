@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "cardColorClass": "violet",
+    "cardClass": "card5",
+    "imageSrc": "images/cardpages/cardi1.webp",
+    "title": "очелье",
+    "tag": "вещицы",
+    "tagTime": "[очелье]",
+    "description": "надеваемая на лоб твёрдая <br />повязка, которая удерживает <br />от попадания в глаза волос <br />челки и висков",
+    "example": "— датебайо, саске, вернись <br />в коноху, у нас лучшее очелье",
+    "background": "images/cardpages/card1.webp"
+  },
+  {
+    "id": 2,
+    "cardColorClass": "blue",
+    "cardClass": "card6",
+    "imageSrc": "images/cardpages/cardi2.webp",
+    "title": "виноград",
+    "tag": "фрукты",
+    "tagTime": "[виноград]",
+    "description": "круглый плод, растущий на виноградной лозе",
+    "example": "— вкусный виноград, попробуй его!",
+    "background": "images/cardpages/card2.webp"
+  }
+]

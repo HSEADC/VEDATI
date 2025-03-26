@@ -2,6 +2,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 const webpack = require('webpack')
 const path = require('path')
@@ -12,6 +13,7 @@ module.exports = {
     library: './src/scripts/library.js',
     articles: './src/scripts/articles.js',
     tests: './src/scripts/tests.js',
+    cardpages: './src/scripts/cardpages.js',
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -101,6 +103,14 @@ module.exports = {
       filename: '[name].[contenthash].css',
       chunkFilename: '[id].[contenthash].css',
     }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: 'src/images',
+          to: 'images',
+        },
+      ],
+    }),
 
     // Index
     new HtmlWebpackPlugin({
@@ -142,17 +152,37 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/library/card1.html',
       filename: './library/card1.html',
-      chunks: ['index'],
+      chunks: ['index', 'cardpages'],
     }),
     new HtmlWebpackPlugin({
       template: './src/library/card2.html',
       filename: './library/card2.html',
-      chunks: ['index'],
+      chunks: ['index', 'cardpages'],
     }),
     new HtmlWebpackPlugin({
       template: './src/library/card3.html',
       filename: './library/card3.html',
-      chunks: ['index'],
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card4.html',
+      filename: './library/card4.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card5.html',
+      filename: './library/card5.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card6.html',
+      filename: './library/card6.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card7.html',
+      filename: './library/card7.html',
+      chunks: ['index', 'cardpages'],
     }),
     // Partials
     // new HtmlWebpackPartialsPlugin([

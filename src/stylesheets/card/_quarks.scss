@@ -1,3 +1,31 @@
+/* отображение карточек рекомендаций*/
+
+/* разовый+фиолетовый баннер */
+.pink ~ .S_RecommendBox .ban_1:nth-child(1),
+.violet ~ .S_RecommendBox .ban_1:nth-child(1),
+.mint ~ .S_RecommendBox .ban_1:nth-child(1),
+.yellow ~ .S_RecommendBox .ban_1:nth-child(1),
+.pink ~ .S_RecommendBox .ban_1:nth-child(2),
+.violet ~ .S_RecommendBox .ban_1:nth-child(2),
+.mint ~ .S_RecommendBox .ban_1:nth-child(2),
+.yellow ~ .S_RecommendBox .ban_1:nth-child(2) {
+  display: none;
+}
+
+/* синий+зеленый баннер */
+.blue ~ .S_RecommendBox .ban_1:nth-child(3),
+.green ~ .S_RecommendBox .ban_1:nth-child(3),
+.orange ~ .S_RecommendBox .ban_1:nth-child(3),
+.coral ~ .S_RecommendBox .ban_1:nth-child(3),
+.blue ~ .S_RecommendBox .ban_1:nth-child(4),
+.green ~ .S_RecommendBox .ban_1:nth-child(4),
+.orange ~ .S_RecommendBox .ban_1:nth-child(4),
+.coral ~ .S_RecommendBox .ban_1:nth-child(4) {
+  display: none;
+}
+
+/*цвет фона карточек рекомендаций */
+
 .blue {
   background-color: var(--blue);
 }
@@ -21,4 +49,112 @@
 }
 .orange {
   background-color: var(--orange);
+}
+
+/*настройки карточек рекомендаций и их содержимого */
+
+.ban_1:nth-child(1) {
+  border: 2px solid var(--white);
+  background-color: var(--pink);
+  padding: 50px 60px;
+  display: flex;
+  align-items: flex-end;
+
+  &:hover {
+    background-color: var(--pink);
+  }
+  .A_TagsWord {
+    border: 2px var(--black) solid;
+    background-color: var(--pink);
+  }
+  .W_TextWordBox {
+    h2 {
+      color: var(--black);
+    }
+    div {
+      color: var(--black);
+      font-size: 14px;
+    }
+  }
+}
+.ban_1:nth-child(2) {
+  border: 2px solid var(--white);
+  background-color: var(--violet);
+  padding: 50px 60px;
+  display: flex;
+  align-items: flex-end;
+
+  &:hover {
+    background-color: var(--violet);
+  }
+  .A_TagsWord {
+    border: 2px var(--black) solid;
+    background-color: var(--violet);
+  }
+  .W_TextWordBox {
+    h2 {
+      color: var(--black);
+    }
+    div {
+      color: var(--black);
+      font-size: 14px;
+    }
+  }
+  .W_TextWordBox {
+    h2 {
+      color: var(--black);
+    }
+    div {
+      color: var(--black);
+      font-size: 14px;
+    }
+  }
+}
+.ban_1:nth-child(3) {
+  border: 2px solid var(---white);
+  background-color: var(--green);
+  padding: 50px 60px;
+  display: flex;
+  align-items: flex-end;
+
+  &:hover {
+    background-color: var(--green);
+  }
+  .A_TagsWord {
+    border: 2px var(--black) solid;
+    background-color: var(--green);
+  }
+  .W_TextWordBox {
+    h2 {
+      color: var(--black);
+    }
+    div {
+      color: var(--black);
+      font-size: 14px;
+    }
+  }
+}
+.ban_1:nth-child(4) {
+  border: 2px solid var(--white);
+  background-color: var(--blue);
+  padding: 50px 60px;
+  display: flex;
+  align-items: flex-end;
+
+  &:hover {
+    background-color: var(--blue);
+  }
+  .A_TagsWord {
+    border: 2px var(--black) solid;
+    background-color: var(--pinbluek);
+  }
+  .W_TextWordBox {
+    h2 {
+      color: var(--black);
+    }
+    div {
+      color: var(--black);
+      font-size: 14px;
+    }
+  }
 }
