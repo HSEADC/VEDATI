@@ -1,5 +1,7 @@
-* {
-  border-width: 1px !important;
+@media (min-width: 0px) and (max-width: 600px) {
+  * {
+    border-width: 1.5px !important;
+  }
 }
 .no-pointer {
   &:hover {
