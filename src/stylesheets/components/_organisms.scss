@@ -7,17 +7,18 @@
   padding: 50px 80px;
   z-index: 10;
 }
-.WhiteBack {
-  .O_NavBar {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #fefefe 100%);
-  }
-}
-.BlackBack {
+
+.BlackNav {
   .O_NavBar {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #151515 100%);
   }
 }
 
+.WhiteNav {
+  .O_NavBar {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #fefefe 100%);
+  }
+}
 .O_Footer {
   width: 100%;
   box-sizing: border-box;

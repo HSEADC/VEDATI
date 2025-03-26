@@ -4,12 +4,14 @@
   display: flex;
   @media (max-width: 900px) {
     flex-direction: column;
+    height: 1121px;
   }
   @media (max-width: 500px) {
     flex-direction: column;
     height: 949px;
   }
 }
+
 .allCard {
   img {
     transition: opacity 0.2s ease;
@@ -31,7 +33,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     @media (max-width: 900px) {
-      height: 60%;
+      height: 50%;
     }
     @media (max-width: 500px) {
       height: 50%;
@@ -71,6 +73,7 @@
   border-radius: 12px;
   padding: 5px 21px;
   height: fit-content;
+  margin-bottom: 9px;
 }
 
 .O_ImageTextCard {
@@ -90,7 +93,7 @@
     font-size: 52px;
     font-family: 'TD Rukopis';
     @media (max-width: 500px) {
-      font-size: 29px;
+      font-size: 40px;
     }
   }
   h6 {

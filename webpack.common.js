@@ -149,6 +149,11 @@ module.exports = {
       filename: './library/card2.html',
       chunks: ['index'],
     }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card3.html',
+      filename: './library/card3.html',
+      chunks: ['index'],
+    }),
     // Partials
     // new HtmlWebpackPartialsPlugin([
     //   {
