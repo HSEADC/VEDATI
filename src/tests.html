@@ -5,117 +5,279 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Тесты</title>
     </head>
-    <body class="M_TestsPage">
-      <!-- название категории -->
-      <div class="W_TestHeaderBox">
-        <div class="A_TestHeader">ТЕСТЫ</div>
-        <!-- теги -->
-        <div class="M_TestTags">
-          <div class="A_TestTag">хохмы ради</div>
-          <div class="A_TestTag">знания получати</div>
+    <body class="BlackBack">
+      <!-- меню -->
+      <nav class="O_NavBar">
+        <!-- лого десктоп-->
+        <a href="index.html" class="A_LogoDesktop white"
+          ><img src="./images/A_LogoDesktopWhite.svg" alt=""
+        /></a>
+        <a href="index.html" class="A_LogoDesktop black"
+          ><img src="./images/A_LogoDesktopBlack.svg" alt=""
+        /></a>
+        <!-- лого мобилка-->
+        <a href="index.html" class="A_LogoMobile white"
+          ><img src="./images/A_LogoMobileWhite.svg" alt=""
+        /></a>
+        <a href="index.html" class="A_LogoMobile black"
+          ><img src="./images/A_LogoMobileBlack.svg" alt=""
+        /></a>
+        <!-- враппер -->
+        <div class="W_IconNavBarBox">
+          <!-- лупа -->
+          <img
+            class="A_SearchIcon white"
+            src="./images/A_SearchIconWhite.svg"
+            alt=""
+          />
+          <img
+            class="A_SearchIcon black"
+            src="./images/A_SearchIconBlack.svg"
+            alt=""
+          />
+          <!-- меню десктоп -->
+          <div class="M_NavDesktop">
+            <a href="library.html">БИБЛИОТЕКА</a>
+            <a href="articles.html">СТАТЬИ</a>
+            <a href="tests.html">ТЕСТЫ</a>
+            <a href="about.html">О НАС</a>
+          </div>
+          <!-- кнопка мобилка -->
+          <button class="A_BurgerButton">
+            <span></span><span></span><span></span>
+          </button>
         </div>
-      </div>
-      <!-- карточки -->
-      <div class="C_TestCards">
-        <!-- 1 карточка -->
-        <div class="O_TestCard">
-          <div class="W_TextTestCard">
-            <div class="A_NameTest">
-              КАКАЯ ТЫ ВЕЩЬ НА РУСИ? УЗНАЙ СВОЙ ДРЕВНИЙ АЙДИ
+        <!-- боковое меню мобилка -->
+        <div class="M_NavMobile">
+          <!-- крест закрытия -->
+          <img
+            class="A_CloseIcon black"
+            src="./images/A_CloseIconBlack.svg"
+            alt=""
+          />
+          <img
+            class="A_CloseIcon white"
+            src="./images/A_CloseIconWhite.svg"
+            alt=""
+          />
+
+          <a href="library.html">БИБЛИОТЕКА</a>
+          <a href="articles.html">СТАТЬИ</a>
+          <a href="tests.html">ТЕСТЫ</a>
+          <a href="about.html">О НАС</a>
+        </div>
+      </nav>
+
+      <section class="S_TestsScreen">
+        <header class="O_HeaderFilter">
+          <div class="W_ArticleHeader M_ScreenHeader BlackText">
+            <h3>СТАТЬИ О СЛОВАХ, ВЕЩАХ И БЫТЕ</h3>
+          </div>
+          <div class="M_ArticleFilters">
+            <button
+              class="A_ThingsFilter A_SubFilterBtn A_Filter"
+              onclick="filterArticles('thing', this)"
+            >
+              знания получати
+            </button>
+            <button
+              class="A_LifeFilter A_SubFilterBtn A_Filter"
+              onclick="filterArticles('life', this)"
+            >
+              хохмы ради
+            </button>
+          </div>
+        </header>
+
+        <div class="W_ForPadding S_ArticlesCard W_WhiteBack">
+          <div class="filter-life O_SmallArticle sayings">
+            <div class="W_TagsBox">
+              <div id="W_FullRedTag" class="A_TagsWord">хохмы ради</div>
+              <div class="A_TagsTime">
+                <span id="A_TimeIconBlack" class="A_TimeBadgeIcon"></span>
+                <span id="A_TimeBlack" class="A_TimeBadgeText">3–4 мин</span>
+              </div>
             </div>
-            <div class="M_InfoTest">
-              <div class="A_MiniTestTag">хохмы ради</div>
-              <div class="A_TimeTest">
-                <p>3-4 мин</p>
-                <img
-                  class="Q_MiniStarLogo"
-                  src="images/Q_MiniStarLogo.svg"
-                  alt=""
-                />
+            <div class="M_ArticleContent">
+              <h4>КАКАЯ ТЫ ВЕЩЬ НА РУСИ? УЗНАЙ СВОЙ ДРЕВНИЙ АЙДИ</h4>
+              <div class="W_TextMemeBox">
+                <h6>
+                  [Может, ты упорная мялка, компанейская ендова или заботливый
+                  лакомник? Проверь, кто твой тотем!]
+                </h6>
+                <div class="W_FlexMeme">
+                  <img src="./images/meme2.webp" alt="" />
+                </div>
               </div>
             </div>
           </div>
-          <div class="A_ImageTestCard">
-            <img src="images/A_ImageTestCard.webp" alt="" />
-          </div>
-        </div>
-        <!-- 2 карточка -->
-        <div class="O_TestCard">
-          <div class="W_TextTestCard">
-            <div class="A_NameTest">
-              Когда вместо «БОЛЕЕ ТОГО», СКАЗАЛ «ТЕМ ПАЧЕ»
+
+          <div class="filter-thing O_SmallArticle things">
+            <div class="W_TagsBox">
+              <div id="W_FullRedTag" class="A_TagsWord">знания получати</div>
+              <div class="A_TagsTime">
+                <span id="A_TimeIconBlack" class="A_TimeBadgeIcon"></span>
+                <span id="A_TimeBlack" class="A_TimeBadgeText">4-5 мин</span>
+              </div>
             </div>
-            <div class="M_InfoTest">
-              <div class="A_MiniTestTag">знания получати</div>
-              <div class="A_TimeTest">
-                <p>4-5 мин</p>
-                <img
-                  class="Q_MiniStarLogo"
-                  src="images/Q_MiniStarLogo.svg"
-                  alt=""
-                />
+            <div class="M_ArticleContent">
+              <h4>Когда вместо «БОЛЕЕ ТОГО», СКАЗАЛ «ТЕМ ПАЧЕ»</h4>
+              <div class="W_TextMemeBox">
+                <h6>
+                  [Может, ты знатный речист или тебя просто тянет к старине?
+                  Проверь, крепко ли стоишь на почве речевых оборотов — особенно
+                  если «тем паче» тебе не в диковинку!]
+                </h6>
+                <div class="W_FlexMeme">
+                  <img src="./images/meme6.webp" alt="" />
+                </div>
               </div>
             </div>
           </div>
-          <div class="A_ImageTestCard">
-            <img src="images/A_ImageTestCard2.webp" alt="" />
-          </div>
-        </div>
-        <!-- 3 карточка -->
-        <div class="O_TestCard">
-          <div class="W_TextTestCard">
-            <div class="A_NameTest">
-              русский ЯЗЫК от «эко диво!» до «МДА, трэш»
+          <div class="filter-life O_SmallArticle sayings">
+            <div class="W_TagsBox">
+              <div id="W_FullRedTag" class="A_TagsWord">хохмы ради</div>
+              <div class="A_TagsTime">
+                <span id="A_TimeIconBlack" class="A_TimeBadgeIcon"></span>
+                <span id="A_TimeBlack" class="A_TimeBadgeText">3–4 мин</span>
+              </div>
             </div>
-            <div class="M_InfoTest">
-              <div class="A_MiniTestTag">знания получати</div>
-              <div class="A_TimeTest">
-                <p>4-5 мин</p>
-                <img
-                  class="Q_MiniStarLogo"
-                  src="images/Q_MiniStarLogo.svg"
-                  alt=""
-                />
+            <div class="M_ArticleContent">
+              <h4>русский ЯЗЫК от «эко диво!» до «МДА, трэш»?</h4>
+              <div class="W_TextMemeBox">
+                <h6>
+                  [русский язык многое повидал, А ты? Разбираешься ли в том, как
+                  говорили предки и как болтают нынче?]
+                </h6>
+                <div class="W_FlexMeme">
+                  <img src="./images/meme7.webp" alt="" />
+                </div>
               </div>
             </div>
           </div>
-          <div class="A_ImageTestCard">
-            <img src="images/A_ImageTestCard3.webp" alt="" />
-          </div>
-        </div>
-        <!-- 4 карточка -->
-        <div class="O_TestCard">
-          <div class="W_TextTestCard">
-            <div class="A_NameTest">ПОГОВОРКи: КАКАЯ МУДРОСТЬ ОПИШЕТ ТЕБЯ?</div>
-            <div class="M_InfoTest">
-              <div class="A_MiniTestTag">хохмы ради</div>
-              <div class="A_TimeTest">
-                <p>3-4 мин</p>
-                <img
-                  class="Q_MiniStarLogo"
-                  src="images/Q_MiniStarLogo.svg"
-                  alt=""
-                />
+
+          <div class="filter-thing O_SmallArticle things">
+            <div class="W_TagsBox">
+              <div id="W_FullRedTag" class="A_TagsWord">знания получати</div>
+              <div class="A_TagsTime">
+                <span id="A_TimeIconBlack" class="A_TimeBadgeIcon"></span>
+                <span id="A_TimeBlack" class="A_TimeBadgeText">4-5 мин</span>
+              </div>
+            </div>
+            <div class="M_ArticleContent">
+              <h4>ТВОЯ ПОГОВОРКА: КАКАЯ МУДРОСТЬ ОПИШЕТ ТЕБЯ?</h4>
+              <div class="W_TextMemeBox">
+                <h6>
+                  [Ты скорей «делу время — потехе час» или «в огороде бузина, а
+                  в Киеве дядька»? узнай, какая народная мудрость тебе близка по
+                  духу!]
+                </h6>
+                <div class="W_FlexMeme">
+                  <img src="./images/meme8.webp" alt="" />
+                </div>
               </div>
             </div>
           </div>
-          <div class="A_ImageTestCard">
-            <img src="images/A_ImageTestCard4.webp" alt="" />
-          </div>
         </div>
-      </div>
+      </section>
+      футер код
       <footer class="O_Footer">
-        <div class="M_NetworkFot">
-          <div id="tgButton" class="A_tg"></div>
-          <div id="vkButton" class="A_vk"></div>
-          <div id="stButton" class="A_st"></div>
+        <div class="W_LeftFooter">
+          <div class="W_LogoNavBox">
+            <a href="index.html" class="A_LogoFooter"
+              ><img src="./images/A_WhiteLogoDesktop.svg" alt=""
+            /></a>
+            <div class="M_NavFooter">
+              <div class="M_FooterNav">
+                <a href="library.html">БИБЛИОТЕКА</a>
+                <a href="articles.html">СТАТЬИ</a>
+                <a href="tests.html">ТЕСТЫ</a>
+                <a href="about.html">О НАС</a>
+              </div>
+            </div>
+          </div>
+          <div class="M_Form">
+            <h6>
+              [ОСТАВЬ СВОЮ ПОЧТУ, ЧТОБЫ БЫТЬ В КУРСЕ<br />НОВИНОК И УВЕДАТЬ
+              ПЕРВЫМ]
+            </h6>
+            <form
+              id="my-form"
+              action="https://formspree.io/f/mbljrjjb"
+              method="POST"
+              class="footer-form"
+            >
+              <div class="footer-form__group">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="почта"
+                  required
+                  class="footer-form__input"
+                />
+                <button
+                  id="my-form-button"
+                  class="footer-form__button"
+                  type="submit"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="15"
+                    viewBox="0 0 16 15"
+                    fill="none"
+                    class="arrow-icon"
+                  >
+                    <path
+                      class="arrow-icon"
+                      d="M14.5977 1.05623L5.21064 1.05623M14.5977 1.05623L1.56014 14.0937M14.5977 1.05623L14.5977 10.4432"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div id="my-form-status"></div>
+            </form>
+          </div>
         </div>
-        <div class="W_LogoAndNameBox">
-          <div class="A_LogoFoot"></div>
-          <div class="M_NameFoot">
-            <p class="A_Polina">[Березина Полина]</p>
-            <p class="A_Nina">[Овсянникова Нина]</p>
-            <p class="A_Lida">[Толкачева Лидия]</p>
+        <div class="W_RightFooter">
+          <div class="W_ListBox">
+            <div class="W_CreatersList">
+              <h5>Создатели</h5>
+              <h6>[Березина Полина]</h6>
+              <h6>[Овсянникова Нина]</h6>
+              <h6>[Толкачева Лидия]</h6>
+            </div>
+            <div class="W_CuratorsList">
+              <h5>Кураторы</h5>
+              <h6>[Каем Софья]</h6>
+              <h6>[Комкова Анна]</h6>
+            </div>
+          </div>
+          <div class="W_NetworksFooterBox">
+            <div class="M_TgVk">
+              <a
+                href="https://t.me/vedatislovar"
+                target="_blank"
+                class="A_IconNetworks"
+              >
+                <img src="./images/A_IconNetworksTg.svg" alt="Telegram" />
+              </a>
+              <a
+                href="https://vk.com/vedatislovar"
+                target="_blank"
+                class="A_IconNetworks"
+              >
+                <img src="./images/A_IconNetworksVk.svg" alt="VK" />
+              </a>
+            </div>
+            <a
+              href="https://design.hse.ru/"
+              target="_blank"
+              class="A_IconNetworksHSE"
+            >
+              <img src="./images/A_IconNetworksHse.svg" alt="VK" />
+            </a>
           </div>
         </div>
       </footer>

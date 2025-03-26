@@ -104,3 +104,65 @@
     display: flex;
   }
 }
+
+.S_TestsScreen {
+  .O_HeaderFilter {
+    .W_ArticleHeader {
+      h3 {
+        color: var(--white);
+      }
+    }
+  }
+}
+
+.S_TestsScreen {
+  .A_Filter {
+    color: var(--white);
+    border: 2px solid var(--red);
+    &:hover,
+    &.active {
+      background-color: var(--red);
+    }
+  }
+  .S_ArticlesCard {
+    background-color: var(--black);
+  }
+  .O_SmallArticle {
+    background-color: var(--white);
+  }
+
+  .M_ArticleContent {
+    h4,
+    h6 {
+      color: var(--black);
+    }
+    h6 {
+      width: 50%;
+      @media (min-width: 900px) {
+        font-size: clamp(9px, 1.4vw, 16px);
+      }
+      @media (max-width: 899px) {
+        font-size: clamp(9px, 2.8vw, 26px);
+      }
+    }
+  }
+  .W_TextMemeBox {
+    img {
+      height: 12vw;
+      @media (max-width: 899px) {
+        height: 42vw;
+      }
+    }
+  }
+}
+#W_FullRedTag {
+  background-color: var(--red);
+  border: var(--red) 2px solid;
+  color: var(--white);
+}
+#A_TimeBlack {
+  color: var(--black);
+}
+#A_TimeIconBlack {
+  background-image: url('/src/images/starb.svg');
+}
