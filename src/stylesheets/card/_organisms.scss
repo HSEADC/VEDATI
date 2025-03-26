@@ -1,0 +1,145 @@
+.O_ImageTextCard {
+  height: 874px;
+  width: 100%;
+  display: flex;
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+  @media (max-width: 500px) {
+    flex-direction: column;
+    height: 949px;
+  }
+}
+.allCard {
+  img {
+    transition: opacity 0.2s ease;
+  }
+  img:hover {
+    opacity: 50%;
+  }
+}
+
+.W_Column {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &:nth-child(1) {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    @media (max-width: 900px) {
+      height: 60%;
+    }
+    @media (max-width: 500px) {
+      height: 50%;
+    }
+  }
+
+  &:nth-child(2) {
+    @media (max-width: 900px) {
+      height: 40%;
+      justify-content: flex-start;
+    }
+    @media (max-width: 500px) {
+      height: 50%;
+    }
+  }
+  @media (min-width: 501px) and (max-width: 900px) {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    padding: 0 80px;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+    height: 50%;
+    padding: 0 20px;
+  }
+}
+.W_WordCardTag {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+.A_TagsCard {
+  border: 2px solid var(--black);
+  border-radius: 12px;
+  padding: 5px 21px;
+  height: fit-content;
+}
+
+.O_ImageTextCard {
+  .Q_Italic {
+    font-style: italic;
+    text-transform: none;
+  }
+  .A_TagsCard {
+    font-size: 16px;
+    text-transform: lowercase;
+    font-family: 'PP Neue Montreal', sans-serif;
+    @media (max-width: 500px) {
+      font-size: 14px;
+    }
+  }
+  h2 {
+    font-size: 52px;
+    font-family: 'TD Rukopis';
+    @media (max-width: 500px) {
+      font-size: 29px;
+    }
+  }
+  h6 {
+    font-size: 16px;
+    text-transform: lowercase;
+    font-family: 'PP Neue Montreal', sans-serif;
+    @media (max-width: 500px) {
+      font-size: 14px;
+    }
+  }
+  p {
+    font-size: 24px;
+    text-transform: uppercase;
+    position: relative;
+    font-family: 'PP Neue Montreal', sans-serif;
+    @media (max-width: 500px) {
+      font-size: 18px;
+    }
+  }
+}
+p {
+  #A_TimeIconBlack {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: -11px;
+    top: -16px;
+  }
+}
+
+.M_TextBox {
+  padding: 20px 0 0 120px;
+  @media (max-width: 500px) {
+    padding: 20px 0 0 40px;
+  }
+}
+.W_SmallTextBox {
+  padding: 20px 0 0 30px;
+}
+.Q_Line {
+  width: 200px;
+  background-color: var(--black);
+  height: 1.5px;
+  margin: 30px 0px 13px 0;
+  @media (max-width: 500px) {
+    height: 1px;
+    width: 190px;
+  }
+}
+.Q_Italic {
+  margin-top: 8px;
+}

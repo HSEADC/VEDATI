@@ -139,7 +139,16 @@ module.exports = {
       filename: './error.html',
       chunks: ['index'],
     }),
-
+    new HtmlWebpackPlugin({
+      template: './src/library/card1.html',
+      filename: './library/card1.html',
+      chunks: ['index'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card2.html',
+      filename: './library/card2.html',
+      chunks: ['index'],
+    }),
     // Partials
     // new HtmlWebpackPartialsPlugin([
     //   {
