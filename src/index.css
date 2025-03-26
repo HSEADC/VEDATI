@@ -23,6 +23,7 @@
 @import './stylesheets/library/_background.scss';
 @import './stylesheets/library/_adaptive.scss';
 
+@import './stylesheets/articles/_filter.scss';
 @import './stylesheets/articles/_atoms.scss';
 @import './stylesheets/articles/_molecules.scss';
 @import './stylesheets/articles/_organisms.scss';

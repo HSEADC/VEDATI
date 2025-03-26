@@ -16,3 +16,21 @@
     background-image: url('/src/images/back2m.webp');
   }
 }
+.back3 {
+  background-image: url('/src/images/back3.webp');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  @media (max-width: 900px) {
+    background-image: url('/src/images/back3m.webp');
+  }
+}
+.back4 {
+  background-image: url('/src/images/back4.webp');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  @media (max-width: 900px) {
+    background-image: url('/src/images/back4m.webp');
+  }
+}

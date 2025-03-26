@@ -1,0 +1,45 @@
+.A_WordFilter {
+  border: 2px solid var(--blue);
+
+  &:hover,
+  &.active {
+    background: var(--blue);
+    color: var(--black);
+  }
+}
+
+.A_ThingsFilter {
+  border: 2px solid var(--violet);
+
+  &:hover,
+  &.active {
+    background: var(--violet);
+    color: var(--black);
+  }
+}
+
+.A_LifeFilter {
+  border: 2px solid var(--orange);
+
+  &:hover,
+  &.active {
+    background: var(--orange);
+    color: var(--black);
+  }
+}
+
+.A_WordFilter,
+.A_ThingsFilter,
+.A_LifeFilter {
+  color: var(--black);
+}
+
+.M_ArticleFilters {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media (max-width: 660px) {
+    gap: 9px;
+  }
+}

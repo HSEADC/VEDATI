@@ -6,14 +6,25 @@
   justify-content: space-between;
   padding: 50px 80px;
   z-index: 10;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #151515 100%);
 }
+.WhiteBack {
+  .O_NavBar {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #fefefe 100%);
+  }
+}
+.BlackBack {
+  .O_NavBar {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #151515 100%);
+  }
+}
+
 .O_Footer {
   width: 100%;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   padding: 50px 80px 100px 80px;
+  background-color: var(--black);
 }
 footer {
   h5,

@@ -36,3 +36,44 @@
 .W_TagsBox {
   align-items: center;
 }
+
+.O_HeaderFilter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 160px 80px 40px 80px;
+  @media (max-width: 900px) {
+    padding: 160px 20px 40px 20px;
+  }
+}
+.W_ArticleHeader {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 747px) and (max-width: 1015px) {
+  .O_HeaderFilter {
+    h3 {
+      font-size: clamp(28px, 4.14vw, 48px);
+    }
+  }
+}
+
+.W_ForPadding {
+  padding: 0 80px 40px 80px;
+  @media (max-width: 900px) {
+    gap: 5.3vw;
+    padding: 0 20px;
+    padding-bottom: 80px;
+  }
+}
+.O_HeaderFilter {
+  .W_ArticleHeader {
+    padding-bottom: 47px;
+    @media (max-width: 900px) {
+      padding-top: 0;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+}
