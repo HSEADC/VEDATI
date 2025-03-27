@@ -545,19 +545,6 @@
     {
       "cardColorClass": "pink",
       "cardClass": "card5",
-      "imageSrc": "images/wordpages/cardi41.webp",
-      "title": "жадобный",
-      "tag": "нежности",
-      "tagTime": "[жадобный]",
-      "description": "любимый,  кого очень хотят видеть рядом с собой",
-      "example": "— эх, как же хочется худенькую, бледную, не очень высокую, девственную, нецелованную, с тонкими руками, небольшими ступнями, синяками под глазами, растрёпанными или неуложенными волосами, ненакрашенную, забитую жадобную хикку",
-      "background": "images/wordpages/card41.webp"
-    }
-  ],
-  "card42": [
-    {
-      "cardColorClass": "pink",
-      "cardClass": "card5",
       "imageSrc": "images/wordpages/cardi42.webp",
       "title": "разласка",
       "tag": "нежности",
@@ -565,6 +552,19 @@
       "description": "обращение к любимому человеку вне зависимости от пола. использовалось как приветствие",
       "example": "— доброе утро, разласка милая",
       "background": "images/wordpages/card42.webp"
+    }
+  ],
+  "card42": [
+    {
+      "cardColorClass": "pink",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi41.webp",
+      "title": "жадобный",
+      "tag": "нежности",
+      "tagTime": "[жадобный]",
+      "description": "любимый,  кого очень хотят видеть рядом с собой",
+      "example": "— эх, как же хочется худенькую, бледную, не очень высокую, девственную, нецелованную, с тонкими руками, небольшими ступнями, синяками под глазами, растрёпанными или неуложенными волосами, ненакрашенную, забитую жадобную хикку",
+      "background": "images/wordpages/card41.webp"
     }
   ],
   "card43": [
@@ -604,6 +604,72 @@
       "description": "Любимый, любимая; с кем гуляют, проводят время",
       "example": "— ты видела нового риткиного дролю? </br> — да какой там дроля, скорее троль",
       "background": "images/wordpages/card45.webp"
+    }
+  ],
+  "card46": [
+    {
+      "cardColorClass": "orange",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi46.webp",
+      "title": "ХОТЬ ТОПОР ВЕШАЙ",
+      "tag": "поговорки",
+      "tagTime": "[ХОТЬ ТОПОР ВЕШАЙ]",
+      "description": "в помещении душно, дымно или плохо пахнет",
+      "example": "— опять пятикласснки своими ашками надымили  — да, хоть топор вещай",
+      "background": "images/wordpages/card46.webp"
+    }
+  ],
+  "card47": [
+    {
+      "cardColorClass": "mint",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi47.webp",
+      "title": "баба с возу —кобыле легче",
+      "tag": "пословицы",
+      "tagTime": "[баба с возу —кобыле легче]",
+      "description": "человеку становится легче, когда хотя бы одной заботой или проблемой меньше",
+      "example": "— представляешь, вика перестала со мной общаться  — ой, баба с возу —кобыле легче ",
+      "background": "images/wordpages/card47.webp"
+    }
+  ],
+  "card48": [
+    {
+      "cardColorClass": "yellow",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi48.webp",
+      "title": "Вот тебе, бабушка, и Юрьев день!",
+      "tag": "фразеологизмы",
+      "tagTime": "[Вот тебе, бабушка, и Юрьев день!]",
+      "description": "Любимая девушка, возлюбленная",
+      "example": "сильное удивление, разочарование из-за неожиданного поворота событий",
+      "background": "images/wordpages/card48.webp"
+    }
+  ],
+  "card49": [
+    {
+      "cardColorClass": "orange",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi49.webp",
+      "title": "ЧЕРЕЗ ПЕНЬ-КОЛОДУ",
+      "tag": "поговорки",
+      "tagTime": "[ЧЕРЕЗ ПЕНЬ-КОЛОДУ]",
+      "description": "подходить к делу безответственно, небрежно, работать хаотично и с перебоями",
+      "example": "— новый стажер мало того, что ничего не знает, так еще и работает через пень-колоду",
+      "background": "images/wordpages/card49.webp"
+    }
+  ],
+
+  "card50": [
+    {
+      "cardColorClass": "blue",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi50.webp",
+      "title": "кумекать",
+      "tag": "что делати?",
+      "tagTime": "[кумекать]",
+      "description": "думать, соображать, понимать",
+      "example": "— я тут кумекала вечером, все же из постмодерна нет выхода...",
+      "background": "images/wordpages/card50.webp"
     }
   ]
 }

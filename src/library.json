@@ -146,6 +146,35 @@
     },
 
     {
+      "cardClass": "O_Card A_CardLarge sayings",
+      "onclick": "window.location.href='library/card46.html'",
+      "tags": {
+        "tagRed": "фразы",
+        "tagWord": "поговорки"
+      },
+      "text": {
+        "title": "ХОТЬ ТОПОР ВЕШАЙ",
+        "description": "[ХОТЬ ТОПОР ВЕШАЙ]"
+      },
+      "imageSrc": null,
+      "backgroundImage": "./images/cardlibrary/imgcard46.webp"
+    },
+    {
+      "cardClass": "O_Card A_CardLarge proverbs",
+      "onclick": "window.location.href='library/card47.html'",
+      "tags": {
+        "tagRed": "фразы",
+        "tagWord": "пословицы"
+      },
+      "text": {
+        "title": "баба с возу — </br >кобыле легче",
+        "description": "[баба с возу — </br >кобыле легче]"
+      },
+      "imageSrc": null,
+      "backgroundImage": "./images/cardlibrary/imgcard47.webp"
+    },
+
+    {
       "cardClass": "O_Card things",
       "onclick": "window.location.href='library/card11.html'",
       "tags": {
@@ -264,7 +293,34 @@
       "imageSrc": "./images/cardlibrary/imgcard18.webp",
       "backgroundImage": null
     },
-
+    {
+      "cardClass": "O_Card A_CardLarge idioms",
+      "onclick": "window.location.href='library/card48.html'",
+      "tags": {
+        "tagRed": "фразы",
+        "tagWord": "фразеологизмы"
+      },
+      "text": {
+        "title": "Вот тебе, бабушка,</br >  и Юрьев день!",
+        "description": "[Вот тебе, бабушка,  </br > и Юрьев день!]"
+      },
+      "imageSrc": null,
+      "backgroundImage": "./images/cardlibrary/imgcard48.webp"
+    },
+    {
+      "cardClass": "O_Card A_CardLarge sayings",
+      "onclick": "window.location.href='library/card49.html'",
+      "tags": {
+        "tagRed": "фразы",
+        "tagWord": "поговорки"
+      },
+      "text": {
+        "title": "ЧЕРЕЗ ПЕНЬ-КОЛОДУ",
+        "description": "[ЧЕРЕЗ ПЕНЬ-КОЛОДУ]"
+      },
+      "imageSrc": null,
+      "backgroundImage": "./images/cardlibrary/imgcard49.webp"
+    },
     {
       "cardClass": "O_Card things",
       "onclick": "window.location.href='library/card19.html'",
@@ -555,11 +611,11 @@
       "onclick": "window.location.href='library/card39.html'",
       "tags": {
         "tagRed": "слова",
-        "tagWord": "нежности?"
+        "tagWord": "нежности"
       },
       "text": {
-        "title": "свербигузка",
-        "description": "[свербигузка]"
+        "title": "сугревушка",
+        "description": "[сугревушка]"
       },
       "imageSrc": "./images/cardlibrary/imgcard39.webp",
       "backgroundImage": null
@@ -569,11 +625,11 @@
       "onclick": "window.location.href='library/card40.html'",
       "tags": {
         "tagRed": "слова",
-        "tagWord": "нежности?"
+        "tagWord": "нежности"
       },
       "text": {
-        "title": "сугревушка",
-        "description": "[сугревушка]"
+        "title": "вынега",
+        "description": "[вынега]"
       },
       "imageSrc": "./images/cardlibrary/imgcard40.webp",
       "backgroundImage": null
@@ -583,11 +639,11 @@
       "onclick": "window.location.href='library/card41.html'",
       "tags": {
         "tagRed": "слова",
-        "tagWord": "нежности?"
+        "tagWord": "нежности"
       },
       "text": {
-        "title": "вынега",
-        "description": "[вынега]"
+        "title": "разласка",
+        "description": "[разласка]"
       },
       "imageSrc": "./images/cardlibrary/imgcard41.webp",
       "backgroundImage": null
@@ -597,7 +653,7 @@
       "onclick": "window.location.href='library/card42.html'",
       "tags": {
         "tagRed": "слова",
-        "tagWord": "нежности?"
+        "tagWord": "нежности"
       },
       "text": {
         "title": "жадобный",
@@ -611,21 +667,22 @@
       "onclick": "window.location.href='library/card43.html'",
       "tags": {
         "tagRed": "слова",
-        "tagWord": "нежности?"
+        "tagWord": "нежности"
       },
       "text": {
-        "title": "разласка",
-        "description": "[разласка]"
+        "title": "Купава",
+        "description": "[Купава]"
       },
       "imageSrc": "./images/cardlibrary/imgcard43.webp",
       "backgroundImage": null
     },
+
     {
       "cardClass": "O_Card tenderness",
       "onclick": "window.location.href='library/card44.html'",
       "tags": {
         "tagRed": "слова",
-        "tagWord": "нежности?"
+        "tagWord": "нежности"
       },
       "text": {
         "title": "зазноба",
@@ -639,13 +696,27 @@
       "onclick": "window.location.href='library/card45.html'",
       "tags": {
         "tagRed": "слова",
-        "tagWord": "нежности?"
+        "tagWord": "нежности"
       },
       "text": {
         "title": "дроля",
         "description": "[дроля]"
       },
       "imageSrc": "./images/cardlibrary/imgcard45.webp",
+      "backgroundImage": null
+    },
+    {
+      "cardClass": "O_Card whatdoing",
+      "onclick": "window.location.href='library/card50.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "что делати?"
+      },
+      "text": {
+        "title": "кумекать",
+        "description": "[кумекать]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard50.webp",
       "backgroundImage": null
     }
   ]
