@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="WhiteBack">
+    <!DOCTYPE html>
+    <html lang="ru">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dynamic Card</title>
+      </head>
+      <body>
+        <!-- меню -->
+        <nav class="O_NavBar">
+          <!-- лого десктоп-->
+          <!-- лого десктоп-->
+          <a href="../index.html" class="A_LogoDesktop white"
+            ><img src="../images/A_LogoDesktopWhite.svg" alt=""
+          /></a>
+          <a href="../index.html" class="A_LogoDesktop black"
+            ><img src="../images/A_LogoDesktopBlack.svg" alt=""
+          /></a>
+          <!-- лого мобилка-->
+          <a href="../index.html" class="A_LogoMobile white"
+            ><img src="../images/A_LogoMobileWhite.svg" alt=""
+          /></a>
+          <a href="../index.html" class="A_LogoMobile black"
+            ><img src="../images/A_LogoMobileBlack.svg" alt=""
+          /></a>
+          <!-- враппер -->
+          <div class="W_IconNavBarBox">
+            <!-- лупа -->
+            <img
+              class="A_SearchIcon white"
+              src="../images/A_SearchIconWhite.svg"
+              alt=""
+            />
+            <img
+              class="A_SearchIcon black"
+              src="../images/A_SearchIconBlack.svg"
+              alt=""
+            />
+            <!-- меню десктоп -->
+            <div class="M_NavDesktop">
+              <a href="../library.html">БИБЛИОТЕКА</a>
+              <a href="../articles.html">СТАТЬИ</a>
+              <a href="../tests.html">ТЕСТЫ</a>
+              <a href="../about.html">О НАС</a>
+            </div>
+            <!-- кнопка мобилка -->
+            <button class="A_BurgerButton">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+          <!-- боковое меню мобилка -->
+          <div class="M_NavMobile">
+            <!-- крест закрытия -->
+            <img
+              class="A_CloseIcon black"
+              src="../images/A_CloseIconBlack.svg"
+              alt=""
+            />
+            <img
+              class="A_CloseIcon white"
+              src="../images/A_CloseIconWhite.svg"
+              alt=""
+            />
+
+            <a href="../library.html">БИБЛИОТЕКА</a>
+            <a href="../articles.html">СТАТЬИ</a>
+            <a href="../tests.html">ТЕСТЫ</a>
+            <a href="../about.html">О НАС</a>
+          </div>
+        </nav>
+
+        <section id="dynamic-card-container" class="card19"></section>
+        <!-- подвал -->
+        <footer class="O_Footer">
+          <div class="W_LeftFooter">
+            <div class="W_LogoNavBox">
+              <a href="../index.html" class="A_LogoFooter"
+                ><img src="../images/A_WhiteLogoDesktop.svg" alt=""
+              /></a>
+              <div class="M_NavFooter">
+                <div class="M_FooterNav">
+                  <a href="../library.html">БИБЛИОТЕКА</a>
+                  <a href="../articles.html">СТАТЬИ</a>
+                  <a href="../tests.html">ТЕСТЫ</a>
+                  <a href="../about.html">О НАС</a>
+                </div>
+              </div>
+            </div>
+            <div class="M_Form">
+              <h6>
+                [ОСТАВЬ СВОЮ ПОЧТУ, ЧТОБЫ БЫТЬ В КУРСЕ<br />НОВИНОК И УВЕДАТЬ
+                ПЕРВЫМ]
+              </h6>
+              <form
+                id="my-form"
+                action="https://formspree.io/f/mbljrjjb"
+                method="POST"
+                class="footer-form"
+              >
+                <div class="footer-form__group">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="почта"
+                    required
+                    class="footer-form__input"
+                  />
+                  <button
+                    id="my-form-button"
+                    class="footer-form__button"
+                    type="submit"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="15"
+                      viewBox="0 0 16 15"
+                      fill="none"
+                      class="arrow-icon"
+                    >
+                      <path
+                        class="arrow-icon"
+                        d="M14.5977 1.05623L5.21064 1.05623M14.5977 1.05623L1.56014 14.0937M14.5977 1.05623L14.5977 10.4432"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div id="my-form-status"></div>
+              </form>
+            </div>
+          </div>
+          <div class="W_RightFooter">
+            <div class="W_ListBox">
+              <div class="W_CreatersList">
+                <h5>Создатели</h5>
+                <h6>[Березина Полина]</h6>
+                <h6>[Овсянникова Нина]</h6>
+                <h6>[Толкачева Лидия]</h6>
+              </div>
+              <div class="W_CuratorsList">
+                <h5>Кураторы</h5>
+                <h6>[Каем Софья]</h6>
+                <h6>[Комкова Анна]</h6>
+              </div>
+            </div>
+            <div class="W_NetworksFooterBox">
+              <div class="M_TgVk">
+                <a
+                  href="https://t.me/vedatislovar"
+                  target="_blank"
+                  class="A_IconNetworks"
+                >
+                  <img src="../images/A_IconNetworksTg.svg" alt="Telegram" />
+                </a>
+                <a
+                  href="https://vk.com/vedatislovar"
+                  target="_blank"
+                  class="A_IconNetworks"
+                >
+                  <img src="../images/A_IconNetworksVk.svg" alt="VK" />
+                </a>
+              </div>
+              <a
+                href="https://design.hse.ru/"
+                target="_blank"
+                class="A_IconNetworksHSE"
+              >
+                <img src="../images/A_IconNetworksHse.svg" alt="VK" />
+              </a>
+            </div>
+          </div>
+        </footer>
+      </body>
+    </html>
+  </body>
+</html>

@@ -14,6 +14,7 @@ module.exports = {
     articles: './src/scripts/articles.js',
     tests: './src/scripts/tests.js',
     cardpages: './src/scripts/cardpages.js',
+    cardlibrary: './src/scripts/cardlibrary.js',
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -137,7 +138,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/library.html',
       filename: './library.html',
-      chunks: ['index', 'library'],
+      chunks: ['index', 'library', 'cardlibrary'],
     }),
     new HtmlWebpackPlugin({
       template: './src/tests.html',
