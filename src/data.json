@@ -661,15 +661,68 @@
 
   "card50": [
     {
-      "cardColorClass": "blue",
+      "cardColorClass": "green",
       "cardClass": "card5",
       "imageSrc": "images/wordpages/cardi50.webp",
       "title": "кумекать",
-      "tag": "что делати?",
+      "tag": "как-как?",
       "tagTime": "[кумекать]",
       "description": "думать, соображать, понимать",
       "example": "— я тут кумекала вечером, все же из постмодерна нет выхода...",
       "background": "images/wordpages/card50.webp"
+    }
+  ],
+
+  "card51": [
+    {
+      "cardColorClass": "green",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi54.webp",
+      "title": "овамо",
+      "tag": "как-как?",
+      "tagTime": "[овамо]",
+      "description": "туда, в ту сторону",
+      "example": "— христа ради, не доводи до греха, поди овамо",
+      "background": "images/wordpages/card54.webp"
+    }
+  ],
+  "card52": [
+    {
+      "cardColorClass": "green",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi52.webp",
+      "title": "Влеготку",
+      "tag": "как-как?",
+      "tagTime": "[Влеготку]",
+      "description": "легко, свободно, без особого труда, безопасно",
+      "example": "— сейчас закроем сессию и заживем влеготку",
+      "background": "images/wordpages/card52.webp"
+    }
+  ],
+  "card53": [
+    {
+      "cardColorClass": "green",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi53.webp",
+      "title": "с кондачка",
+      "tag": "как-как?",
+      "tagTime": "[с кондачка]",
+      "description": "с ходу, с наскока; без подготовки",
+      "example": "— ну и я ему с кондачка говорю, славик, давай пойдем за ашками",
+      "background": "images/wordpages/card53.webp"
+    }
+  ],
+  "card54": [
+    {
+      "cardColorClass": "green",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi54.webp",
+      "title": "доколе",
+      "tag": "как-как?",
+      "tagTime": "[доколе]",
+      "description": "до каких пор, как долго, долго ли, пока",
+      "example": "— паш, нам нужно сдать 2 макета к четвергу, правки отправила на почту. у тебя есть вопросы?  — да, доколе?",
+      "background": "images/wordpages/card54.webp"
     }
   ]
 }

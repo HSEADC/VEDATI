@@ -404,6 +404,27 @@ module.exports = {
       chunks: ['index', 'cardpages'],
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/library/card51.html',
+      filename: './library/card51.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card52.html',
+      filename: './library/card52.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card53.html',
+      filename: './library/card53.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card54.html',
+      filename: './library/card54.html',
+      chunks: ['index', 'cardpages'],
+    }),
+
     // Partials
     // new HtmlWebpackPartialsPlugin([
     //   {
