@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ВЕДАТИ</title>
+    <title>Главная</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -23,6 +23,26 @@
       href="./images/favicon-16x16.webp"
     />
     <link rel="manifest" href="./images/site.webmanifest" />
+
+    <!-- OpenGraph Мета-теги: -->
+    <meta property="og:title" content="Образовательный медиа-сервис ВЕДАТИ" />
+    <meta
+      property="og:description"
+      content="Библиотека популяризирующая старорусскую речь через призму повседневной жизни и мемов"
+    />
+    <meta property="og:image" content="images/meta.webp" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hseadc.github.io/VEDATI/" />
+
+    <!-- Twitter Мета-теги: -->
+    <meta name="twitter:title" content="Образовательный медиа-сервис ВЕДАТИ" />
+    <meta
+      name="twitter:description"
+      content="Библиотека популяризирующая старорусскую речь через призму повседневной жизни и мемов"
+    />
+    <meta name="twitter:image" content="images/meta.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://hseadc.github.io/VEDATI/" />
   </head>
   <body class="BlackBack BlackNav">
     <!-- меню -->
@@ -117,7 +137,12 @@
           </div>
           <div class="W_ButtonBoxBanner" id="W_ButtonBoxBannerFirst">
             <div class="M_ButtonWithText">
-              <button id="A_ToLibraryButton" class="A_RedButton" type="submit">
+              <button
+                id="A_ToLibraryButton"
+                class="A_RedButton"
+                type="submit"
+                onclick="window.location.href='library.html'"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -156,7 +181,12 @@
           </div>
           <div class="W_ButtonBoxBanner">
             <div class="M_ButtonWithText">
-              <button id="A_ToArticlesButton" class="A_RedButton" type="submit">
+              <button
+                id="A_ToArticlesButton"
+                class="A_RedButton"
+                type="submit"
+                onclick="window.location.href='articles.html'"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -195,7 +225,12 @@
           </div>
           <div class="W_ButtonBoxBanner">
             <div class="M_ButtonWithText">
-              <button id="A_ToTestsButton" class="A_RedButton" type="submit">
+              <button
+                id="A_ToTestsButton"
+                class="A_RedButton"
+                type="submit"
+                onclick="window.location.href='tests.html'"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -246,7 +281,12 @@
             да, мы ведаем в этой теме!]
           </h6>
           <div class="M_ButtonWithText">
-            <button id="A_ToLibraryButton" class="A_RedButton" type="submit">
+            <button
+              id="A_ToLibraryButton"
+              class="A_RedButton"
+              type="submit"
+              onclick="window.location.href='library.html'"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -363,7 +403,10 @@
     <!-- экран тесты  -->
 
     <div class="S_TestsCard S_ArticlesCard">
-      <div class="ArticleWhite O_SmallArticle sayings">
+      <div
+        class="ArticleWhite O_SmallArticle sayings"
+        onclick="window.location.href='error.html'"
+      >
         <div class="W_TagsBox">
           <div class="A_TagsWord">хохмы ради</div>
           <div class="A_TagsTime">
@@ -385,7 +428,10 @@
           </div>
         </div>
       </div>
-      <div class="W_ForHeader ArticleBlack O_SmallArticle">
+      <div
+        class="W_ForHeader ArticleBlack O_SmallArticle"
+        onclick="window.location.href='error.html'"
+      >
         <div class="M_ScreenHeader WhiteText">
           <h3>
             ТЕСТЫ ДЛЯ ХОХМЫ<br />
@@ -405,7 +451,12 @@
               чуз ёр файтер как молвится!]
             </h6>
             <div class="M_ButtonWithText">
-              <button id="A_ToTestsButton" class="A_RedButton" type="submit">
+              <button
+                id="A_ToTestsButton"
+                class="A_RedButton"
+                type="submit"
+                onclick="window.location.href='tests.html'"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -449,7 +500,12 @@
             Приятного чтения. Ведайте!]
           </h6>
           <div class="M_ButtonWithText">
-            <button id="A_ToArticlesButton" class="A_RedButton" type="submit">
+            <button
+              id="A_ToArticlesButton"
+              class="A_RedButton"
+              type="submit"
+              onclick="window.location.href='articles.html'"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -470,7 +526,10 @@
         </div>
       </div>
 
-      <div class="O_BigArticle whatdoing back1">
+      <div
+        class="O_BigArticle whatdoing back1"
+        onclick="window.location.href='error.html'"
+      >
         <div class="W_TagsBox">
           <div class="W_TagsBoxForBig">
             <div class="A_TagsRed">выбор редакции</div>
@@ -498,7 +557,10 @@
         </div>
       </div>
 
-      <div class="O_SmallArticle things back2">
+      <div
+        class="O_SmallArticle things back2"
+        onclick="window.location.href='error.html'"
+      >
         <div class="W_TagsBox">
           <div class="A_TagsWord">об истории вещей</div>
           <div class="A_TagsTime">
@@ -519,7 +581,10 @@
           </div>
         </div>
       </div>
-      <div class="O_SmallArticle sayings">
+      <div
+        class="O_SmallArticle sayings"
+        onclick="window.location.href='error.html'"
+      >
         <div class="W_TagsBox">
           <div class="A_TagsWord">об истории быта</div>
           <div class="A_TagsTime">
