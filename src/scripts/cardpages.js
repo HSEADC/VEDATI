@@ -14,8 +14,8 @@ filteredData.forEach((item) => {
   section.className = `O_ImageTextCard ${item.cardColorClass}`
 
   section.innerHTML = `
-    <div class="allCard ${item.cardClass} W_Column" style="background-image: url('/${item.background}')">
-      <img src="/${item.imageSrc}" alt="" />
+    <div class="allCard ${item.cardClass} W_Column" style="background-image: url('${item.background}')">
+      <img src="${item.imageSrc}" alt="" />
     </div>
     <div class="text W_Column">
       <div class="W_WordCardTag">
