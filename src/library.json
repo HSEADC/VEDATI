@@ -338,6 +338,20 @@
       },
       "imageSrc": "./images/cardlibrary/imgcard23.webp",
       "backgroundImage": null
+    },
+    {
+      "cardClass": "O_Card things",
+      "onclick": "window.location.href='library/card23.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "вещицы"
+      },
+      "text": {
+        "title": "мялка",
+        "description": "[мялка]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard23.webp",
+      "backgroundImage": null
     }
   ]
 }
