@@ -83,7 +83,7 @@
     {
       "cardColorClass": "violet",
       "cardClass": "card5",
-      "imageSrc": "images/wordpages/cardi7.png",
+      "imageSrc": "images/wordpages/cardi7.webp",
       "title": "очелье",
       "tag": "вещицы",
       "tagTime": "[очелье]",
@@ -314,6 +314,296 @@
       "description": "устройство, с помощью которого в старину отделяли волокна льна или конопли от жесткой древесной оболочки с помощью «била»",
       "example": "— хватит уже за мялку работать, быстрее соображай!",
       "background": "images/wordpages/card23.webp"
+    }
+  ],
+
+  "card24": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi24.webp",
+      "title": "вяжихвостка",
+      "tag": "кто-кто?",
+      "tagTime": "[вяжихвостка]",
+      "description": "девушка, говорящая сплетни или ложь; сплетница",
+      "example": "— ох, Галочка, я тебе сейчас такую сплетню расскажу, ты умрешь </br> — ну ты и вяжихвостка, Светочка!",
+      "background": "images/wordpages/card24.webp"
+    }
+  ],
+
+  "card25": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi25.webp",
+      "title": "захухря",
+      "tag": "кто-кто?",
+      "tagTime": "[захухря]",
+      "description": "человек с растрепанными волосами; неопрятный, растрепа, непричесанный",
+      "example": "— вот ты захухря, у тебя бардак на голове",
+      "background": "images/wordpages/card25.webp"
+    }
+  ],
+
+  "card27": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi27.webp",
+      "title": "гульня",
+      "tag": "кто-кто?",
+      "tagTime": "[гульня]",
+      "description": "распутная женщина",
+      "example": "—  опять эта гульня из соседнего подъезда в 7 утра каблуками </br> по лестнице как конница Чингисхана — спать вообще не дала!",
+      "background": "images/wordpages/card27.webp"
+    }
+  ],
+
+  "card28": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi28.webp",
+      "title": "курощуп",
+      "tag": "кто-кто?",
+      "tagTime": "[курощуп]",
+      "description": "бабник",
+      "example": "— да он тот ещё курощуп, третью неделю к официантке клинья подбивает, а вчера уже с новой на самокате уехал!",
+      "background": "images/wordpages/card28.webp"
+    }
+  ],
+
+  "card29": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi29.webp",
+      "title": "ерпыль",
+      "tag": "кто-кто?",
+      "tagTime": "[ерпыль]",
+      "description": "малорослый",
+      "example": "— ну чё ты как ерпыль встал, тебя за колонной вообще не видно — махни рукой хоть, если жив!",
+      "background": "images/wordpages/card29.webp"
+    }
+  ],
+
+  "card30": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi30.webp",
+      "title": "расщеколда",
+      "tag": "кто-кто?",
+      "tagTime": "[расщеколда]",
+      "description": "болтливая баба",
+      "example": "— я ей просто «привет» написал, а она как расщеколда разошлась — уже голосовух на 8 минут накатала",
+      "background": "images/wordpages/card30.webp"
+    }
+  ],
+
+  "card31": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi31.webp",
+      "title": "Валандай",
+      "tag": "кто-кто?",
+      "tagTime": "[Валандай]",
+      "description": "бездельник, лодырь",
+      "example": "— ну ты и валандай, пельмени сварить попросили, так он их в кастрюле забыл и пошёл тиктоки смотреть!",
+      "background": "images/wordpages/card31.webp"
+    }
+  ],
+
+  "card32": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi32.webp",
+      "title": "ветрогонка",
+      "tag": "кто-кто?",
+      "tagTime": "[ветрогонка]",
+      "description": "вздорная баба",
+      "example": "— только с утра зашла, а эта ветрогонка уже с кем-то поскандалила, кофе пролила и ушла в обиде",
+      "background": "images/wordpages/card32.webp"
+    }
+  ],
+
+  "card33": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi33.webp",
+      "title": "ендовочник",
+      "tag": "кто-кто?",
+      "tagTime": "[ендовочник]",
+      "description": "охочий до пива, браги, попоек",
+      "example": "— пошёл в магазин за хлебом, вернулся через пять часов — ендовочник, говорит, «брожка сама меня нашла»",
+      "background": "images/wordpages/card33.webp"
+    }
+  ],
+
+  "card34": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi34.webp",
+      "title": "безпелюха",
+      "tag": "кто-кто?",
+      "tagTime": "[безпелюха]",
+      "description": "неряха",
+      "example": "— да она такая безпелюха, что «генеральная уборка» у неё — это просто дверь в комнату прикрыть!",
+      "background": "images/wordpages/card34.webp"
+    }
+  ],
+
+  "card35": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi35.webp",
+      "title": "куелда",
+      "tag": "кто-кто?",
+      "tagTime": "[куелда]",
+      "description": "сварливый, вздорный",
+      "example": "—  да он как куелда: в чате вечно ссорится, мемы не смешные, на любое сообщение — три абзаца негодования!",
+      "background": "images/wordpages/card35.webp"
+    }
+  ],
+
+  "card36": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi36.webp",
+      "title": "баламошка",
+      "tag": "кто-кто?",
+      "tagTime": "[баламошка]",
+      "description": "полоумный, дурачок",
+      "example": "— этот баламошка вчера в сторис выложил, как на электросамокате по квартире гоняет… в шлеме и с криком «форсаж 12»",
+
+      "background": "images/wordpages/card36.webp"
+    }
+  ],
+
+  "card37": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi37.webp",
+
+      "title": "королобый",
+      "tag": "кто-кто?",
+      "tagTime": "[королобый]",
+      "description": "крепкоголовый, тупой, глупый",
+      "example": "— объясняю третий раз, a он смотрит как королобый — будто я на эльфийском говорю и в шапке из фольги стою!",
+      "background": "images/wordpages/card37.webp"
+    }
+  ],
+
+  "card38": [
+    {
+      "cardColorClass": "coral",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi38.webp",
+      "title": "свербигузка",
+      "tag": "кто-кто?",
+      "tagTime": "[свербигузка]",
+      "description": "девка-непоседа, у нее свербит в одном месте",
+      "example": "— только села в маршрутку, а эта свербигузка уже по салону бегает: то к водителю с вопросами, то сзади с кем-то знакомится — ощущение, что Red Bull ей в роддоме выдали!",
+      "background": "images/wordpages/card38.webp"
+    }
+  ],
+
+  "card39": [
+    {
+      "cardColorClass": "pink",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi39.webp",
+      "title": "сугревушка",
+      "tag": "нежности",
+      "tagTime": "[сугревушка]",
+      "description": "Ласковое обращение мужа к любимой жене, означавшее очень близкие, теплые отношения",
+      "example": "— дорогая, ты моя сугревушка",
+      "background": "images/wordpages/card39.webp"
+    }
+  ],
+  "card40": [
+    {
+      "cardColorClass": "pink",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi40.webp",
+      "title": "вынега",
+      "tag": "нежности",
+      "tagTime": "[вынега]",
+      "description": "ласковая, нежная и хрупкая девушка",
+      "example": "— ты вынега батюшкина, выхоля матушкина",
+      "background": "images/wordpages/card40.webp"
+    }
+  ],
+  "card41": [
+    {
+      "cardColorClass": "pink",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi41.webp",
+      "title": "жадобный",
+      "tag": "нежности",
+      "tagTime": "[жадобный]",
+      "description": "любимый,  кого очень хотят видеть рядом с собой",
+      "example": "— эх, как же хочется худенькую, бледную, не очень высокую, девственную, нецелованную, с тонкими руками, небольшими ступнями, синяками под глазами, растрёпанными или неуложенными волосами, ненакрашенную, забитую жадобную хикку",
+      "background": "images/wordpages/card41.webp"
+    }
+  ],
+  "card42": [
+    {
+      "cardColorClass": "pink",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi42.webp",
+      "title": "разласка",
+      "tag": "нежности",
+      "tagTime": "[разласка]",
+      "description": "обращение к любимому человеку вне зависимости от пола. использовалось как приветствие",
+      "example": "— доброе утро, разласка милая",
+      "background": "images/wordpages/card42.webp"
+    }
+  ],
+  "card43": [
+    {
+      "cardColorClass": "pink",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi43.webp",
+      "title": "Купава",
+      "tag": "нежности",
+      "tagTime": "[Купава]",
+      "description": "пышная, гордая красавица",
+      "example": "— Кто тру купава современности: Лопез или Кардашьян?",
+      "background": "images/wordpages/card43.webp"
+    }
+  ],
+  "card44": [
+    {
+      "cardColorClass": "pink",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi44.webp",
+      "title": "зазноба",
+      "tag": "нежности",
+      "tagTime": "[зазноба]",
+      "description": "Любимая девушка, возлюбленная",
+      "example": "— Дора зазноба всех бородатых мужчин 30+",
+      "background": "images/wordpages/card44.webp"
+    }
+  ],
+  "card45": [
+    {
+      "cardColorClass": "pink",
+      "cardClass": "card5",
+      "imageSrc": "images/wordpages/cardi45.webp",
+      "title": "дроля",
+      "tag": "нежности",
+      "tagTime": "[дроля]",
+      "description": "Любимый, любимая; с кем гуляют, проводят время",
+      "example": "— ты видела нового риткиного дролю? </br> — да какой там дроля, скорее троль",
+      "background": "images/wordpages/card45.webp"
     }
   ]
 }

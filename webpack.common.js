@@ -267,6 +267,117 @@ module.exports = {
       chunks: ['index', 'cardpages'],
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/library/card24.html',
+      filename: './library/card24.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card25.html',
+      filename: './library/card25.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card26.html',
+      filename: './library/card26.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card27.html',
+      filename: './library/card27.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card28.html',
+      filename: './library/card28.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card29.html',
+      filename: './library/card29.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card30.html',
+      filename: './library/card30.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card31.html',
+      filename: './library/card31.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card32.html',
+      filename: './library/card32.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card33.html',
+      filename: './library/card33.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card34.html',
+      filename: './library/card34.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card35.html',
+      filename: './library/card35.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card36.html',
+      filename: './library/card36.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card37.html',
+      filename: './library/card37.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card38.html',
+      filename: './library/card38.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card39.html',
+      filename: './library/card39.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card40.html',
+      filename: './library/card40.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card41.html',
+      filename: './library/card41.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card42.html',
+      filename: './library/card42.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card43.html',
+      filename: './library/card43.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card44.html',
+      filename: './library/card44.html',
+      chunks: ['index', 'cardpages'],
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/library/card45.html',
+      filename: './library/card45.html',
+      chunks: ['index', 'cardpages'],
+    }),
+
     // Partials
     // new HtmlWebpackPartialsPlugin([
     //   {

@@ -1,7 +1,7 @@
 /* отображение карточек рекомендаций*/
 
 /* разовый+фиолетовый баннер */
-.pink ~ .S_RecommendBox .ban_1:nth-child(1),
+#dynamic-card-container .pink ~ section.S_RecommendBox .ban_1:nth-child(1),
 .violet ~ .S_RecommendBox .ban_1:nth-child(1),
 .mint ~ .S_RecommendBox .ban_1:nth-child(1),
 .yellow ~ .S_RecommendBox .ban_1:nth-child(1),
@@ -10,6 +10,16 @@
 .mint ~ .S_RecommendBox .ban_1:nth-child(2),
 .yellow ~ .S_RecommendBox .ban_1:nth-child(2) {
   display: none;
+}
+
+#dynamic-card-container {
+  .pink {
+    ~ .S_RecommendBox {
+      .ban_1:nth-child(1) {
+        display: none;
+      }
+    }
+  }
 }
 
 /* синий+зеленый баннер */

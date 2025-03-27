@@ -147,3 +147,90 @@ p {
 .Q_Italic {
   margin-top: 8px;
 }
+
+.O_AboutUs {
+  display: flex;
+  align-items: flex-end;
+  @media (max-width: 1038px) {
+    flex-direction: column;
+  }
+  .M_ScreenHeader {
+    padding-bottom: 0;
+    @media (max-width: 1038px) {
+      padding-bottom: 47px;
+    }
+  }
+}
+
+#W_Padding {
+  padding: 80px 0;
+
+  .S_CardGrid {
+    padding-bottom: 0;
+  }
+}
+.A_Autors {
+  width: 197px;
+  height: 198px;
+  @media (max-width: 1050px) {
+    width: 50%;
+    height: auto;
+  }
+}
+.W_AutorsBox {
+  flex-direction: row;
+  @media (max-width: 1050px) {
+    flex-direction: column;
+    width: 100%;
+  }
+  h4 {
+    font-size: clamp(17px, 2.4vw, 24px);
+    padding-bottom: 10px;
+    @media (max-width: 1300px) {
+      font-size: clamp(9px, 1vw, 24px);
+    }
+    @media (max-width: 1050px) {
+      font-size: clamp(17px, 2.4vw, 24px);
+    }
+  }
+
+  h6 {
+    @media (max-width: 1300px) {
+      font-size: clamp(9px, 2.8vw, 10px);
+    }
+    @media (max-width: 1050px) {
+      font-size: clamp(9px, 2.8vw, 15px);
+      padding: 3vw 0px;
+    }
+  }
+}
+.M_AutorsText {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  height: fit-content;
+  width: fit-content;
+  @media (max-width: 1050px) {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+}
+.W_BoxAutorsText {
+  padding-left: 20px;
+}
+
+.A_AboutLogo {
+  width: 70%;
+  padding: 80px 0 20px 0;
+}
+#W_PaddingScreen {
+  @media (max-width: 900px) {
+    padding-bottom: 11vw;
+  }
+}
+#S_WorkFace {
+  @media only screen and (min-width: 0px) and (max-width: 901px) {
+    padding: 80px 20px 0 20px;
+    padding-top: 0;
+  }
+}

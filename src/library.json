@@ -339,18 +339,313 @@
       "imageSrc": "./images/cardlibrary/imgcard23.webp",
       "backgroundImage": null
     },
+
     {
-      "cardClass": "O_Card things",
-      "onclick": "window.location.href='library/card23.html'",
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card24.html'",
       "tags": {
         "tagRed": "слова",
-        "tagWord": "вещицы"
+        "tagWord": "КТО-КТО?"
       },
       "text": {
-        "title": "мялка",
-        "description": "[мялка]"
+        "title": "вяжихвостка",
+        "description": "[вяжихвостка]"
       },
-      "imageSrc": "./images/cardlibrary/imgcard23.webp",
+      "imageSrc": "./images/cardlibrary/imgcard24.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card25.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "захухря",
+        "description": "[захухря]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard25.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card27.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "гульня",
+        "description": "[гульня]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard27.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card28.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "курощуп",
+        "description": "[курощуп]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard28.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card29.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "ерпыль",
+        "description": "[ерпыль]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard29.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card30.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "расщеколда",
+        "description": "[расщеколда]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard30.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card31.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "Валандай",
+        "description": "[Валандай]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard31.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card32.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "ветрогонка",
+        "description": "[ветрогонка]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard32.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card33.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "ендовочник",
+        "description": "[ендовочник]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard33.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card34.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "безпелюха",
+        "description": "[безпелюха]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard34.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card35.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "куелда",
+        "description": "[куелда]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard35.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card36.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "баламошка",
+        "description": "[баламошка]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard36.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card37.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "королобый",
+        "description": "[королобый]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard37.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card who-who",
+      "onclick": "window.location.href='library/card38.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "КТО-КТО?"
+      },
+      "text": {
+        "title": "свербигузка",
+        "description": "[свербигузка]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard38.webp",
+      "backgroundImage": null
+    },
+
+    {
+      "cardClass": "O_Card tenderness",
+      "onclick": "window.location.href='library/card39.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "нежности?"
+      },
+      "text": {
+        "title": "свербигузка",
+        "description": "[свербигузка]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard39.webp",
+      "backgroundImage": null
+    },
+    {
+      "cardClass": "O_Card tenderness",
+      "onclick": "window.location.href='library/card40.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "нежности?"
+      },
+      "text": {
+        "title": "сугревушка",
+        "description": "[сугревушка]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard40.webp",
+      "backgroundImage": null
+    },
+    {
+      "cardClass": "O_Card tenderness",
+      "onclick": "window.location.href='library/card41.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "нежности?"
+      },
+      "text": {
+        "title": "вынега",
+        "description": "[вынега]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard41.webp",
+      "backgroundImage": null
+    },
+    {
+      "cardClass": "O_Card tenderness",
+      "onclick": "window.location.href='library/card42.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "нежности?"
+      },
+      "text": {
+        "title": "жадобный",
+        "description": "[жадобный]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard42.webp",
+      "backgroundImage": null
+    },
+    {
+      "cardClass": "O_Card tenderness",
+      "onclick": "window.location.href='library/card43.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "нежности?"
+      },
+      "text": {
+        "title": "разласка",
+        "description": "[разласка]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard43.webp",
+      "backgroundImage": null
+    },
+    {
+      "cardClass": "O_Card tenderness",
+      "onclick": "window.location.href='library/card44.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "нежности?"
+      },
+      "text": {
+        "title": "зазноба",
+        "description": "[зазноба]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard44.webp",
+      "backgroundImage": null
+    },
+    {
+      "cardClass": "O_Card tenderness",
+      "onclick": "window.location.href='library/card45.html'",
+      "tags": {
+        "tagRed": "слова",
+        "tagWord": "нежности?"
+      },
+      "text": {
+        "title": "дроля",
+        "description": "[дроля]"
+      },
+      "imageSrc": "./images/cardlibrary/imgcard45.webp",
       "backgroundImage": null
     }
   ]
