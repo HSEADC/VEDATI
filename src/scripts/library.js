@@ -1,3 +1,23 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+
+import NavBar from '../NavBar.jsx'
+import Search from '../Search.jsx'
+import Footer from '../Footer.jsx' // 👈 добавили
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(
+  <>
+    <NavBar />
+    <div style={{ padding: '2rem' }}>
+      <Search />
+    </div>
+  </>
+)
+
+// отдельный рендер футера
+ReactDOM.createRoot(document.getElementById('footer-root')).render(<Footer />)
+
 // фильтрация// фильтрация
 function toggleMainFilter(category, element) {
   const filterButtons = document.querySelectorAll('.A_FilterBtn')

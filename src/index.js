@@ -1,4 +1,10 @@
 import './index.css'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import NavBar from './NavBar.jsx'
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<NavBar />)
 
 // отправляем на 404 вместо поиска
 
